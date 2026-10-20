@@ -2,7 +2,7 @@
 
 [Website](https://turniermanager-beta.pages.dev/en/) · [Deutsch](README.md) · [Installation](docs/INSTALLATION.en.md) · [Questions & answers](docs/FAQ.md) · [Beta terms](BETA_TERMS.md)
 
-**Beta 0.9.0-beta.2 · 20 October 2026.** macOS Universal has been qualified. Windows is not available for download yet. Read the installation and signing notes before your first practice run.
+**Beta 0.9.0-beta.2 · 20 October 2026.** Available for macOS Universal and Windows x64. Read the installation and signing notes before your first practice run.
 
 ## From the floor. For the floor.
 
@@ -27,6 +27,12 @@ The published beta may be evaluated voluntarily, free of charge, for private and
 SHA-256: `f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9`
 
 Tested on macOS 14.7 on a physical Intel iMac and Darwin 25.6.0 on an ARM64 hosted Mac VM. The package is ad-hoc signed and not notarized. HDMI, every consumer configuration and MacBook installation are not claimed as tested.
+
+[Windows x64 · Setup](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe) · 111,786,939 bytes
+
+SHA-256: `e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332`
+
+Installation, normal quit and reopen, resume, backup and restoration were checked natively in a Windows Server 2025 Datacenter VM (10.0.26100, x64). The installer and app are unsigned. Captures are limited to 1024 pixels wide, with the Windows taskbar hiding the bottom announcement row. Physical Windows hardware, HDMI and native ticker movement are not fully qualified by this evidence. See the [Windows visual evidence](checks/windows-human-visual-acceptance.json) for the precise limits.
 
 [Release & SHA-256](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2) · [Manifest](release-manifest.json) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Third-party sources](docs/THIRD_PARTY_SOURCES.md)
 

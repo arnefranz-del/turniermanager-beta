@@ -51,15 +51,44 @@
         "ARM VM window sizes were constrained; wide/detail images retain the explicit code-identical baseline capture identity",
         "Short-ticker native movement not proven by the retained stills"
       ]
-    }
-  ],
-  "unavailablePlatforms": [
+    },
     {
       "platform": "windows",
       "architecture": "x64",
-      "reason": "Native package qualification is not complete. No installer is offered."
+      "file": "Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe",
+      "bytes": 111786939,
+      "sha256": "e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332",
+      "status": "approved",
+      "signing": "unsigned",
+      "buildSourceCommit": "fe298daf7ca3276a89b8145f6a80a85a9aabcc91",
+      "testedEnvironment": "win32 / 10.0.26100 / Windows Server 2025 Datacenter / x64",
+      "checks": [
+        {
+          "file": "windows-native-acceptance.json",
+          "sha256": "d08017124607746284cc172b9814fc924639ee40fb3152d94f4264a3253de213",
+          "result": "PASS"
+        },
+        {
+          "file": "windows-human-code-identity.json",
+          "sha256": "bd368a020eb914394f8bb41dbb778f2e6d293658788db2c7448ec1feaa491321",
+          "result": "PASS"
+        },
+        {
+          "file": "windows-human-visual-acceptance.json",
+          "sha256": "d86816e3a6720de3b0ae44643cac3ca03433bcb9d9ad033a83e263a1fb76dee6",
+          "result": "PASS"
+        }
+      ],
+      "limits": [
+        "Unsigned installer and application; no Authenticode certificate",
+        "Native qualification used Windows Server 2025 Datacenter x64 (10.0.26100) in a hosted VM; no physical consumer Windows or HDMI acceptance",
+        "Actual native images are 1024x768 or 1024x720; requested larger filenames are not dimension proof",
+        "The OS taskbar hides the player-display announcement row. Short-ticker visibility, single-copy rendering and native movement are not proven by these stills",
+        "Offscreen lower editor rows are outside the captured viewport"
+      ]
     }
   ],
+  "unavailablePlatforms": [],
   "thirdPartySources": {
     "file": "Turniermanager-0.9.0-beta.2-third-party-sources.tar.gz",
     "bytes": 18377570,
@@ -68,5 +97,8 @@
   },
   "publicTagRole": "Public documentation and feedback repository revision; not public application source",
   "privateSourceIntegrationCommit": "c5eeb195a2e19d8f1c6cdc4ceb6e5377f0e49668",
-  "privateSourceIntegrationDate": "2026-10-20"
+  "privateSourceIntegrationDate": "2026-10-20",
+  "platformAdditionDate": "2026-10-20",
+  "privateSourceIntegrationRole": "Integration of the delivered application baseline; actual qualification build commits, including observer follow-up changes, are recorded per platform",
+  "supplementRole": "Adds the qualified Windows platform without replacing the originally published Mac assets or original Mac-only release manifest"
 }

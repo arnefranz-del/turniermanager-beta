@@ -1,0 +1,74 @@
+{
+  "campaign": "lite-owner-correction-v1",
+  "result": "PASS",
+  "platform": "win",
+  "version": "0.9.0-beta.2",
+  "sha": "fe298daf7ca3276a89b8145f6a80a85a9aabcc91",
+  "testedEnvironment": "win32 / 10.0.26100 / Windows Server 2025 Datacenter / x64",
+  "cycle": 1,
+  "sourceEvidenceSha256": "21bc30aa56681b82cc92f0e259243ce10ef1ae2265a9fd8eed814f1cc5e5c892",
+  "records": [
+    {
+      "kind": "human",
+      "artifact": "Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe",
+      "bytes": 111786939,
+      "sha256": "e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "native UI Automation"
+    }
+  ],
+  "humanFunctionalReadback": "PASS",
+  "physicalAcceptance": "NOT_TESTED_CONSUMER_HARDWARE",
+  "qualificationRun": "39453963864",
+  "lifecycleContract": {
+    "requiredLifecycles": 1,
+    "result": "PASS",
+    "sourceSha256": "fef3b08af84f230b97cb105a547fcbcd4dd852ff36a03b76a0f86b252b719dbe"
+  },
+  "uninstallContract": {
+    "requiredProbes": 1,
+    "result": "PASS",
+    "userDataRetained": true,
+    "sourceSha256": "451dfdd87410245189b02244b3fbb9682c4c263da38039be27b457f0b7754c51"
+  },
+  "buildKind": "human",
+  "cleanBuildSource": true
+}

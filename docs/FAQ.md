@@ -4,9 +4,9 @@
 
 ## Ist die Beta schon verfügbar? / Is the beta available?
 
-`0.9.0-beta.2` ist für macOS Universal freigegeben. Windows ist noch nicht verfügbar. Pakete, SHA-256, geprüfte Systeme und Grenzen stehen im [Release](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2).
+`0.9.0-beta.2` ist für macOS Universal und Windows x64 freigegeben. Pakete, SHA-256, geprüfte Systeme und Grenzen stehen im [Release](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2).
 
-`0.9.0-beta.2` is available for macOS Universal. Windows is not available yet. The exact packages, SHA-256, tested environments and limits are listed in the [release](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2).
+`0.9.0-beta.2` is available for macOS Universal and Windows x64. The exact packages, SHA-256, tested environments and limits are listed in the [release](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2).
 
 ## Darf ich damit gewerblich testen? / May I evaluate it commercially?
 

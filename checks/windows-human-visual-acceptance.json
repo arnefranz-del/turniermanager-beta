@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "sourceCommit": "fe298daf7ca3276a89b8145f6a80a85a9aabcc91",
+  "confirmedProductBlockers": {
+    "critical": [],
+    "high": [],
+    "medium": []
+  },
+  "inventoryBytesAndDimensionsVerified": true,
+  "viewMode": "view_image original; all 17 visual and 6 quantity/targeted-undo images inspected",
+  "observations": [
+    "Visible English text, numbers and currency glyphs are readable and complete; no material overlap seen.",
+    "All six quantity and targeted-undo dialogs are complete within the captured viewport, including registration-closed exception state.",
+    "Normal break editor shows 10 minutes with Show Chip-Up unchecked. Chip-Up editor shows 15 minutes, Show Chip-Up checked, and Remove 25 chips.",
+    "Chip-Up player display shows BREAK 15:00, following blinds 500/1,000 and ante 1,000, with Remove 25 chips.",
+    "Unavailable payout display shows Payouts not set yet and prize pool 8,100; no invented payout rows.",
+    "Normal workspace preview shows one default announcement line; this does not establish the separately captured short-ticker fixture."
+  ],
+  "limits": [
+    "19 images are 1024x768 and four dialogs are 1024x720. Requested 1920/2048x831 sizes were not reached; filenames do not establish those dimensions.",
+    "The visible Windows taskbar covers the bottom of all A3 player-display captures, including the announcement row. A3 short-ticker visibility and single-copy rendering cannot be verified from these pixels.",
+    "The native ticker comparison reports zero changed announcement-region pixels and NATIVE_MOTION_NOT_PROVEN. No motion claim is accepted.",
+    "Lower payout editor rows and controls outside scrolled editor viewports are not inspected by these stills; they are not classified as missing app content.",
+    "Synthetic data in hosted Windows VM; no physical HDMI/multiple-monitor/consumer-hardware acceptance."
+  ],
+  "ticker": {
+    "result": "NATIVE_MOTION_NOT_PROVEN",
+    "changedPixels": 0,
+    "shortTickerSingleCopy": "NOT_PROVEN_OCCLUDED",
+    "comparisonRegion": {
+      "left": 30,
+      "top": 675,
+      "width": 963,
+      "height": 81
+    }
+  },
+  "reviewedFileListSha256": "4c6e14c4c96010473e22c44e23ba15d770f9eeac59a0ae2a587ab8afa6f79943",
+  "fileListDigestFormat": "sha256 plus two spaces plus basename plus LF, sorted by basename",
+  "result": "PASS",
+  "scope": "Visible areas only; capture limits below are part of this acceptance.",
+  "independentReviewVerdict": "PASS_VISIBLE_AREAS_WITH_CAPTURE_LIMITS",
+  "independentReviewSha256": "517409bc8c82040d38defd37de99a9bb33ceaae5a5b16d4874ac0dad716a2b78",
+  "installerSha256": "e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332",
+  "files": [
+    {
+      "file": "human-owner-1204-quantity.png",
+      "width": 1024,
+      "height": 720,
+      "sha256": "e1927dda07ddee7823de683d62f539d3ceb7614db7b8404a2d239c3d8088ca38",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-1204-targeted-undo.png",
+      "width": 1024,
+      "height": 720,
+      "sha256": "574cebead306adae774a78ad2cc4e667ab6c1c8d5a0fbcc12b7a31e8b66da4dc",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-2936-visual-a3-payout-unavailable.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "3cc8cee2f546c37aab10cfbf7dabec309c43981416dd8baa30f9c07b8d7e0949",
+      "verdict": "PASS_VISIBLE_CONTENT_ANNOUNCEMENT_OCCLUDED_BY_OS_TASKBAR"
+    },
+    {
+      "file": "human-owner-2936-visual-payout-unavailable-home.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "eb0c13d31066c11bfb3cc501de8ec64fc6ecf4654b7bf2af77b18174fe0c2ab0",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-4448-visual-a3-chip-up.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "c31357e84229801a635fdec9ea052203876ed7db7da8ee5d8cdf94cc6825d522",
+      "verdict": "PASS_VISIBLE_CONTENT_ANNOUNCEMENT_OCCLUDED_BY_OS_TASKBAR"
+    },
+    {
+      "file": "human-owner-4448-visual-chip-up-home.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "6591640353a1cb7c01da95d278aeccdd20ef2ab0c33ea8bc1fd10f4682519fda",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6472-quantity.png",
+      "width": 1024,
+      "height": 720,
+      "sha256": "e1927dda07ddee7823de683d62f539d3ceb7614db7b8404a2d239c3d8088ca38",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6472-targeted-undo.png",
+      "width": 1024,
+      "height": 720,
+      "sha256": "c5bad7956f0215a224c3ef413ae56adf8e6833c287b86f2d99d3c36fa2d1854b",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6568-quantity.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "33d0160f8fdc1455f8f73766bfe1b85b9a4e668c56d170f83143328d895bfa38",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6568-targeted-undo.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "250b49cc680fa6f9a24d76f37789390857f2af61af717ac920b46f885a520f8e",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6568-visual-a3-normal-1920.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "9569873cd7249ec91d75869919d2b2833393298b477b05605a7306865792ab6a",
+      "verdict": "PASS_VISIBLE_CONTENT_ANNOUNCEMENT_OCCLUDED_BY_OS_TASKBAR"
+    },
+    {
+      "file": "human-owner-6568-visual-a3-paused.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "99962e7fd67d86f2f4ce9a2cc5d7c5f6fc4e2204ad4d06231da3201e7084b881",
+      "verdict": "PASS_VISIBLE_CONTENT_ANNOUNCEMENT_OCCLUDED_BY_OS_TASKBAR"
+    },
+    {
+      "file": "human-owner-6568-visual-a3-wide-2048x831.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "db6002ebf9987ea17619d7f1af671ddd17d16cf8d521976f42d9e8bc42ac1979",
+      "verdict": "PASS_VISIBLE_CONTENT_ANNOUNCEMENT_OCCLUDED_BY_OS_TASKBAR"
+    },
+    {
+      "file": "human-owner-6568-visual-blinds-chip-up.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "28b0c8e67a50e9ecaae63e11cd92c0f1d6cb8346ac65f5c261c0bfa0042538f7",
+      "verdict": "PASS_FOCUSED_BREAK_ROW_REMAINDER_OUTSIDE_SCROLL_VIEWPORT"
+    },
+    {
+      "file": "human-owner-6568-visual-blinds-normal-break.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "3f1e8ebb01c8b4f805ebc88d217bc2725f38af3b2d5e593b3678c2c0073dd6ac",
+      "verdict": "PASS_FOCUSED_BREAK_ROW_REMAINDER_OUTSIDE_SCROLL_VIEWPORT"
+    },
+    {
+      "file": "human-owner-6568-visual-display-settings.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "8cdd82b2edb3dc02a1a6d3330b3da1709c8e2cd0e264b4386a7fc54ed56657a8",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6568-visual-normal-home.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "eb0c13d31066c11bfb3cc501de8ec64fc6ecf4654b7bf2af77b18174fe0c2ab0",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6568-visual-payout-detail.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "c595ed6eb79369f3e2f18a3f14c64d9df5c98391df60bd5d82647fb80e82abb8",
+      "verdict": "PASS_VISIBLE_CONTENT_LOWER_EDITOR_ROWS_OUTSIDE_VIEWPORT"
+    },
+    {
+      "file": "human-owner-6568-visual-payout-overview.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "19c737992938e5a3e163a6046e3cbd799e090fad4999a5af3b7530eff9cc065e",
+      "verdict": "PASS_VISIBLE_CONTENT_LOWER_EDITOR_ROWS_OUTSIDE_VIEWPORT"
+    },
+    {
+      "file": "human-owner-6568-visual-workspace.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "165b645f171be4b9db1c369efab09b7f6c11d33587cf59aff38ae143b5f731a7",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    },
+    {
+      "file": "human-owner-6756-visual-a3-short-ticker-motion.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "388f407230e6ef6aa66f9e40f9ce094e053e367fcdc110324409ec71f00e6f0d",
+      "verdict": "PASS_VISIBLE_CONTENT_ANNOUNCEMENT_OCCLUDED_BY_OS_TASKBAR"
+    },
+    {
+      "file": "human-owner-6756-visual-a3-short-ticker.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "440ca8fde7a829157e0780e3025a913d392bf43d1d0e29449edc6f87598e57f7",
+      "verdict": "PASS_VISIBLE_CONTENT_ANNOUNCEMENT_OCCLUDED_BY_OS_TASKBAR"
+    },
+    {
+      "file": "human-owner-6756-visual-short-ticker-home.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "6591640353a1cb7c01da95d278aeccdd20ef2ab0c33ea8bc1fd10f4682519fda",
+      "verdict": "PASS_VISIBLE_CONTENT"
+    }
+  ]
+}

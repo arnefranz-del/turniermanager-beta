@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ajv",
+    "version": "8.20.0",
+    "license": "MIT",
+    "path": "notices/node_modules_ajv.txt",
+    "sha256": "df8e5a77fa22b8fa16df23d47079f36cb5522ad15ece67f1ca1f2cd73cf0cb0a"
+  },
+  {
+    "name": "fast-deep-equal",
+    "version": "3.1.3",
+    "license": "MIT",
+    "path": "notices/node_modules_fast-deep-equal.txt",
+    "sha256": "99cdf76b2fc4038cba312ca02465674dcd0352756e53c36896435ecfbd301c00"
+  },
+  {
+    "name": "fast-uri",
+    "version": "3.1.9",
+    "license": "BSD-3-Clause",
+    "path": "notices/node_modules_fast-uri.txt",
+    "sha256": "dbca6bff2057a9ad20267df6c1ab3d2c16c636eea9771dc64f8ce763e89a9524"
+  },
+  {
+    "name": "json-schema-traverse",
+    "version": "1.0.0",
+    "license": "MIT",
+    "path": "notices/node_modules_json-schema-traverse.txt",
+    "sha256": "99cdf76b2fc4038cba312ca02465674dcd0352756e53c36896435ecfbd301c00"
+  },
+  {
+    "name": "react",
+    "version": "19.2.7",
+    "license": "MIT",
+    "path": "notices/node_modules_react.txt",
+    "sha256": "72ae4797d6b4956e67a49750bf3340774ee50b5a2bfcb4694507dbc01792f4f3"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.2.7",
+    "license": "MIT",
+    "path": "notices/node_modules_react-dom.txt",
+    "sha256": "72ae4797d6b4956e67a49750bf3340774ee50b5a2bfcb4694507dbc01792f4f3"
+  },
+  {
+    "name": "require-from-string",
+    "version": "2.0.2",
+    "license": "MIT",
+    "path": "notices/node_modules_require-from-string.txt",
+    "sha256": "0c077a6d539da718a027aeab869be3bbc63c6c0197e4a9b491e69e59f3067fe7"
+  },
+  {
+    "name": "scheduler",
+    "version": "0.27.0",
+    "license": "MIT",
+    "path": "notices/node_modules_scheduler.txt",
+    "sha256": "72ae4797d6b4956e67a49750bf3340774ee50b5a2bfcb4694507dbc01792f4f3"
+  },
+  {
+    "name": "Electron",
+    "version": "44.3.0",
+    "license": "See bundled license text",
+    "path": "notices/electron-LICENSE",
+    "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+  },
+  {
+    "name": "Chromium and bundled software",
+    "version": "44.3.0",
+    "license": "See bundled license text",
+    "path": "notices/LICENSES.chromium.windows.html",
+    "sha256": "7b328b8c7463ac9bfc7dc648c751533517c8441a0b5b21047d6c0b2620e60d70",
+    "versionRole": "Electron release supplying this Windows license collection",
+    "chromiumVersion": "152.0.7977.78"
+  }
+]

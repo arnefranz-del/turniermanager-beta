@@ -12,3 +12,5 @@ The following locked runtime components retain their own licenses and notices. T
 - scheduler 0.27.0: [license text](notices/node_modules_scheduler.txt)
 - Electron 44.3.0: [license text](notices/electron-LICENSE)
 - Chromium and bundled software supplied with Electron 44.3.0 (Chromium 152.0.7977.78): [license text](notices/LICENSES.chromium.html)
+
+The Chromium collection above is the original macOS collection. The Windows package supplies its own original [Chromium and bundled-software license collection](notices/LICENSES.chromium.windows.html). Shared component license texts are byte-identical. The [Windows inventory](notices/runtime-inventory.windows.json) identifies the exact public license paths and SHA-256 values; the separate Windows notices ZIP preserves the original packaged notice directory and index without edits. Both packages use Electron 44.3.0 and Chromium 152.0.7977.78. Corresponding sources are available immediately as described in [Third-party sources](docs/THIRD_PARTY_SOURCES.md).

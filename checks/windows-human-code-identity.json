@@ -1,0 +1,78 @@
+{
+  "result": "PASS",
+  "installerSha256": "e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332",
+  "qualifiedSourceCommit": "fe298daf7ca3276a89b8145f6a80a85a9aabcc91",
+  "frozenBaselineSourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956",
+  "files": [
+    {
+      "file": "out/main/index.js",
+      "expectedSha256": "428ce20942508789fc34093943b0e5b116ad27e279420d315e7aa6dd6bd33073",
+      "actualSha256": "428ce20942508789fc34093943b0e5b116ad27e279420d315e7aa6dd6bd33073",
+      "match": true
+    },
+    {
+      "file": "out/preload/preload.cjs",
+      "expectedSha256": "30ad78551881119779f10d419f1e6e7ba9ba9d37125e057a04979baf41e45e77",
+      "actualSha256": "30ad78551881119779f10d419f1e6e7ba9ba9d37125e057a04979baf41e45e77",
+      "match": true
+    },
+    {
+      "file": "out/renderer/assets/display-qP-CdHsj.js",
+      "expectedSha256": "2c5f325de5d2ff6ec59221a547aaf2520385e917f1cbb88fb96fb914bcddd492",
+      "actualSha256": "2c5f325de5d2ff6ec59221a547aaf2520385e917f1cbb88fb96fb914bcddd492",
+      "match": true
+    },
+    {
+      "file": "out/renderer/assets/floorman-BPxOFz-M.css",
+      "expectedSha256": "9b274e8a77b5b030dbf211d4141602338cf94f41d9fa9871e674737de8971774",
+      "actualSha256": "9b274e8a77b5b030dbf211d4141602338cf94f41d9fa9871e674737de8971774",
+      "match": true
+    },
+    {
+      "file": "out/renderer/assets/floorman-lKoz19CQ.js",
+      "expectedSha256": "6e4c2ed1e9052128495bb682ffa6baed9807087ffe7f678bf113ba72512c585d",
+      "actualSha256": "6e4c2ed1e9052128495bb682ffa6baed9807087ffe7f678bf113ba72512c585d",
+      "match": true
+    },
+    {
+      "file": "out/renderer/assets/root-Bq8lBD4N.js",
+      "expectedSha256": "21df60e6eb037212fceb02677d5ed1bcb2767d5d10effd0515c600df6ab7c4dd",
+      "actualSha256": "21df60e6eb037212fceb02677d5ed1bcb2767d5d10effd0515c600df6ab7c4dd",
+      "match": true
+    },
+    {
+      "file": "out/renderer/assets/root-DWZ_itnG.css",
+      "expectedSha256": "f2aff21bbbe38f68185aa2be94269eded522e59570125a2b5de39b07c76b6ccc",
+      "actualSha256": "f2aff21bbbe38f68185aa2be94269eded522e59570125a2b5de39b07c76b6ccc",
+      "match": true
+    },
+    {
+      "file": "out/renderer/display.html",
+      "expectedSha256": "84c1e001cbd7ad0c0f9684e4f8d7927cf76f201b1292b727896c5ea70dc4a83d",
+      "actualSha256": "84c1e001cbd7ad0c0f9684e4f8d7927cf76f201b1292b727896c5ea70dc4a83d",
+      "match": true
+    },
+    {
+      "file": "out/renderer/floorman.html",
+      "expectedSha256": "c85d480547105aaed0498942d372be53e8525dc5cd2d39390db4225cd15ebf95",
+      "actualSha256": "c85d480547105aaed0498942d372be53e8525dc5cd2d39390db4225cd15ebf95",
+      "match": true
+    }
+  ],
+  "scope": "Nine normal Human application outputs match the frozen application baseline and qualified Mac payload. This does not claim identical OS runtimes, signatures or installer bytes.",
+  "peApplication": {
+    "file": "Turniermanager.exe",
+    "machine": "0x8664",
+    "optionalHeader": "0x20b",
+    "certificateOffset": 0,
+    "certificateBytes": 0
+  },
+  "peInstaller": {
+    "file": "Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe",
+    "machine": "0x14c",
+    "optionalHeader": "0x10b",
+    "certificateOffset": 0,
+    "certificateBytes": 0
+  },
+  "signing": "unsigned"
+}

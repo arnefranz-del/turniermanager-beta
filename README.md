@@ -2,7 +2,7 @@
 
 [Website](https://turniermanager-beta.pages.dev/de/) · [English](README.en.md) · [Installation](docs/INSTALLATION.de.md) · [Fragen & Antworten](docs/FAQ.md) · [Beta-Nutzung](BETA_TERMS.md)
 
-**Beta 0.9.0-beta.2 · 20. Oktober 2026.** macOS Universal ist geprüft. Windows ist noch nicht zum Download freigegeben. Lies vor dem ersten Probelauf die Installations- und Signierungshinweise.
+**Beta 0.9.0-beta.2 · 20. Oktober 2026.** Verfügbar für macOS Universal und Windows x64. Lies vor dem ersten Probelauf die Installations- und Signierungshinweise.
 
 ## Vom Floor. Für den Floor.
 
@@ -27,6 +27,12 @@ Die veröffentlichte Beta darf privat und gewerblich kostenlos und freiwillig er
 SHA-256: `f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9`
 
 Geprüft auf einem Intel-iMac mit macOS 14.7 und einer ARM64-Mac-CI-VM mit Darwin 25.6.0. Das Paket ist ad-hoc signiert und nicht notarisiert. HDMI, jede Consumer-Konfiguration und die Installation auf einem MacBook sind damit nicht pauschal abgenommen.
+
+[Windows x64 · Setup](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe) · 111.786.939 Byte
+
+SHA-256: `e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332`
+
+Installation, normales Beenden und Wiederöffnen, Wiederaufnahme, Sicherung und Wiederherstellung wurden nativ in einer Windows-Server-2025-Datacenter-VM (10.0.26100, x64) geprüft. Installer und App sind unsigniert. Die Bildschirmaufnahmen sind auf 1024 Pixel Breite begrenzt; die Windows-Taskleiste verdeckt die unterste Ankündigungszeile. Ein physischer Windows-Rechner, HDMI und die native Tickerbewegung sind damit nicht vollständig geprüft. Details stehen in den [Windows-Bildnachweisen](checks/windows-human-visual-acceptance.json).
 
 [Release & SHA-256](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2) · [Manifest](release-manifest.json) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Third-party sources](docs/THIRD_PARTY_SOURCES.md)
 
