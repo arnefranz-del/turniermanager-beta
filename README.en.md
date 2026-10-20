@@ -1,6 +1,6 @@
 # Turniermanager Lite
 
-[Deutsch](README.md) · [Installation](docs/INSTALLATION.en.md) · [Questions & answers](docs/FAQ.md) · [Beta terms](BETA_TERMS.md)
+[Website](https://turniermanager-beta.pages.dev/en/) · [Deutsch](README.md) · [Installation](docs/INSTALLATION.en.md) · [Questions & answers](docs/FAQ.md) · [Beta terms](BETA_TERMS.md)
 
 **Beta 0.9.0-beta.2 · 20 October 2026.** macOS Universal has been qualified. Windows is not available for download yet. Read the installation and signing notes before your first practice run.
 

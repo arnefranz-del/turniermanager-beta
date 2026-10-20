@@ -1,6 +1,6 @@
 # Turniermanager Lite
 
-[English](README.en.md) · [Installation](docs/INSTALLATION.de.md) · [Fragen & Antworten](docs/FAQ.md) · [Beta-Nutzung](BETA_TERMS.md)
+[Website](https://turniermanager-beta.pages.dev/de/) · [English](README.en.md) · [Installation](docs/INSTALLATION.de.md) · [Fragen & Antworten](docs/FAQ.md) · [Beta-Nutzung](BETA_TERMS.md)
 
 **Beta 0.9.0-beta.2 · 20. Oktober 2026.** macOS Universal ist geprüft. Windows ist noch nicht zum Download freigegeben. Lies vor dem ersten Probelauf die Installations- und Signierungshinweise.
 
@@ -22,7 +22,7 @@ Arne Franz ist seit über 15 Jahren im Live-Poker aktiv und kennt die Arbeit als
 
 Die veröffentlichte Beta darf privat und gewerblich kostenlos und freiwillig erprobt werden. Für diese Erprobung entstehen keine späteren Zahlungspflichten. Künftige Versionen können ein anderes Lizenzmodell haben. Die genauen Bedingungen stehen in [BETA_TERMS.md](BETA_TERMS.md).
 
-[macOS Universal · DMG](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · 231,487,943 bytes
+[macOS Universal · DMG](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · 231.487.943 Byte
 
 SHA-256: `f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9`
 
