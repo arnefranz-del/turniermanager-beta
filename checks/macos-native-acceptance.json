@@ -1,0 +1,60 @@
+{
+  "campaign": "lite-owner-correction-v1",
+  "result": "PASS",
+  "platform": "mac",
+  "version": "0.9.0-beta.2",
+  "sha": "63aeea8d2a928e97cb3d868865b51b4913f0463f",
+  "testedEnvironment": "darwin / 25.6.0 / Darwin Kernel Version 25.6.0: Fri Jul 31 19:16:43 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_VMAPPLE / arm64",
+  "cycle": 1,
+  "sourceEvidenceSha256": "5c9409c88a4cc7d49602299c2c80b6a195e687be74c0819ae9d3eeb3960389dc",
+  "records": [
+    {
+      "kind": "human",
+      "artifact": "Turniermanager-0.9.0-beta.2-macos-universal.dmg",
+      "bytes": 231487943,
+      "sha256": "f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    },
+    {
+      "event": "human-preserved-tournament-readback",
+      "result": "PASS",
+      "method": "macOS native screenshot and spatial Vision OCR after normal recovery button"
+    }
+  ],
+  "humanFunctionalReadback": "PASS",
+  "physicalAcceptance": "NOT_TESTED_CONSUMER_HARDWARE"
+}

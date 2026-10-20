@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "platform": "macos",
+  "version": "0.9.0-beta.2",
+  "buildSourceCommit": "63aeea8d2a928e97cb3d868865b51b4913f0463f",
+  "installerSha256": "f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9",
+  "testedEnvironment": "macOS14.7 / x86_64 / physical Intel iMac",
+  "method": "Normal version-bound OS launcher; exact isolated process/profile; native OS pixels inspected; normal quit and process-gone verified twice",
+  "normalLaunchAndReopenCycles": 2,
+  "priorSyntheticProducer": "0.9.0-beta.1",
+  "expectedEntries": 30,
+  "expectedPausedClock": "19:49",
+  "gpuOverride": false,
+  "accessibilityLaunchFlag": false,
+  "standardNativeAssistiveReadback": true,
+  "previousProtectedFilesUnchanged": 18,
+  "captures": [
+    {
+      "file": "human-normal-reopen-1.png",
+      "sha256": "30b098b1413aca4a2c97785e1a8fb9fe84b0936091a567e573da95e33a253e2c",
+      "width": 1600,
+      "height": 960
+    },
+    {
+      "file": "human-normal-reopen-2.png",
+      "sha256": "044ee28c4fdde0f3ea49d6dd601dfe1ac365df7b2bc0891bd125aaf2317dea3e",
+      "width": 1440,
+      "height": 928
+    }
+  ],
+  "limits": [
+    "Native automation and pixel inspection; no claim of a human-operated event or HDMI certification.",
+    "Supplementary display collection stopped on a native foreground guard; its original FAIL remains private. Wide display evidence is supplied from the code-identical beta2 baseline, with that exact captured installer identity preserved."
+  ]
+}

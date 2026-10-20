@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Kontakt ohne GitHub-Konto / Contact without a GitHub account
+    url: mailto:hybrid-larval-1l@icloud.com
+    about: Normales Feedback per E-Mail. Keine vertraulichen Daten ungefragt anhängen. / Email feedback; do not attach confidential data without agreement.
+  - name: Sicherheitsproblem privat melden / Private security report
+    url: mailto:hybrid-larval-1l@icloud.com?subject=Turniermanager%20security
+    about: Keine öffentliche Meldung mit ausnutzbaren Details. / Do not publish exploitable details in an issue.

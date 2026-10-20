@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "version": "0.9.0-beta.2",
+  "scope": "Independent inspection of actual normal-Human OS pixels; synthetic data only",
+  "armCurrentInstallerSha256": "f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9",
+  "armBuildSourceCommit": "63aeea8d2a928e97cb3d868865b51b4913f0463f",
+  "armReviewedCaptures": 23,
+  "armActualCaptureSizes": [
+    "1024x677",
+    "1024x674"
+  ],
+  "intelBaselineReviewedCaptures": 18,
+  "intelCapturedInstallerSha256": "b6c257a9f61aacad97a1f95f941add87c47a1ea486f347018adbad9c507f0c20",
+  "intelCapturedSourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956",
+  "intelNativeWideContentSize": "2048x831",
+  "equivalenceCheck": "human-code-identity.json",
+  "websiteImages": [
+    {
+      "file": "display.png",
+      "sha256": "8b8e4e03176a45bc0f688241495e15333b771a69c9ec175fb576cea59ba91b69",
+      "width": 1920,
+      "height": 1108,
+      "capturedSourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956"
+    },
+    {
+      "file": "overview.png",
+      "sha256": "a6fad03acd32a146f0025b92bb567111ffebee348ab8c444dc0f8f49f39c9584",
+      "width": 1440,
+      "height": 928,
+      "capturedSourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956"
+    },
+    {
+      "file": "setup.png",
+      "sha256": "b727ced5790c4a41ab64a667736d82ad539ef95a74fa24f8204a2782b5cda8c7",
+      "width": 1440,
+      "height": 928,
+      "capturedSourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956"
+    },
+    {
+      "file": "operator.png",
+      "sha256": "c38f61423bc839c51b6f8dc34e323e6e3b73311c6f81742bc5d3adf031dd8f76",
+      "width": 1440,
+      "height": 928,
+      "capturedSourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956"
+    }
+  ],
+  "limits": [
+    "The ARM VM clamped requested large formats; filenames are not proof of requested dimensions.",
+    "ARM short-ticker stills show one line; native movement was not proven (changedPixels=0).",
+    "Physical wide/full-detail images were captured from the code-identical beta2 baseline; the captured and released installer hashes are explicitly different.",
+    "No claim of consumer HDMI certification or every device/OS configuration."
+  ]
+}

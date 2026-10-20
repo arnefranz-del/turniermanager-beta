@@ -1,0 +1,59 @@
+name: Feedback geben / Share feedback
+description: Was war hilfreich, und wo musstest du suchen? / What helped, and what took too much searching?
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dieses Issue ist öffentlich. Keine echten Teilnehmer-/Kundendaten, vollständigen Backups, Passwörter oder Tokens hochladen. Ohne GitHub-Konto erreichst du Arne unter hybrid-larval-1l@icloud.com.
+
+        This issue is public. Do not upload real participant/customer data, complete backups, passwords or tokens. Without a GitHub account, email Arne at hybrid-larval-1l@icloud.com.
+  - type: input
+    id: version
+    attributes:
+      label: Appversion / App version
+      description: Steht unter Über. / Shown under About.
+      placeholder: 0.9.0-beta.2
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Betriebssystem / Operating system
+      description: Bitte genaue OS-Version ergänzen. / Please include the exact OS version.
+      placeholder: macOS … / Windows …
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was wolltest du tun? Was hat funktioniert oder gestört? / What were you doing? What worked or got in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was sollte einfacher werden? / What would you like to be easier?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Beispiel oder kurze Schritte / Example or short steps
+      description: Optional. Keine echten Teilnehmerdaten. / Optional. Do not include real participant data.
+  - type: dropdown
+    id: usage
+    attributes:
+      label: Freiwillig zur Nutzung / Optional usage context
+      options:
+        - Lieber keine Angabe / Prefer not to say
+        - Nur angesehen / Only looked at it
+        - Einen Probelauf gemacht / Completed a practice run
+        - Bei einem Turnier verwendet / Used it at a tournament
+    validations:
+      required: false
+  - type: textarea
+    id: reuse
+    attributes:
+      label: Würdest du es wieder nutzen? / Would you use it again?
+      description: Freiwillig; eine kurze Begründung hilft. / Optional; a short reason helps.

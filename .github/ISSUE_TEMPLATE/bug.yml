@@ -1,0 +1,50 @@
+name: Fehler melden / Report a bug
+description: Was ist passiert, und was hast du erwartet? / What happened, and what did you expect?
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dieses Issue ist öffentlich. Keine echten Teilnehmer-/Kundendaten, vollständigen Backups, Passwörter oder Tokens hochladen. Verwende synthetische Daten und neutrale Screenshots. Sicherheitsprobleme bitte privat an hybrid-larval-1l@icloud.com melden.
+
+        This issue is public. Do not upload real participant/customer data, complete backups, passwords or tokens. Use synthetic data and neutral screenshots. Report security issues privately to hybrid-larval-1l@icloud.com.
+  - type: input
+    id: version
+    attributes:
+      label: Appversion / App version
+      description: Steht unter Über. / Shown under About.
+      placeholder: 0.9.0-beta.2
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Betriebssystem / Operating system
+      description: Bitte genaue OS-Version ergänzen. / Please include the exact OS version.
+      placeholder: macOS … / Windows …
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was wolltest du tun, und was ist passiert? / What were you trying to do, and what happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was hast du erwartet? / What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen / Steps to reproduce
+      description: Optional. Kurze Schritte und neutrale Screenshots helfen. / Optional. Short steps and neutral screenshots help.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Vor dem Absenden / Before submitting
+      options:
+        - label: Ich habe keine echten Teilnehmerdaten, vollständigen Backups oder Zugangsdaten beigefügt. / I have not included real participant data, complete backups or credentials.
+          required: true

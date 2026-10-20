@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "channel": "public-beta",
+  "version": "0.9.0-beta.2",
+  "sourceVisibility": "private",
+  "sourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956",
+  "sourceCommitRole": "Frozen delivered-application-code baseline; actual package build commits are recorded per platform",
+  "license": {
+    "id": "LicenseRef-Turniermanager-Beta",
+    "ownerApproved": true,
+    "privateEvaluation": true,
+    "commercialEvaluation": true,
+    "appSourcePublic": false
+  },
+  "platforms": [
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "file": "Turniermanager-0.9.0-beta.2-macos-universal.dmg",
+      "bytes": 231487943,
+      "sha256": "f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9",
+      "status": "approved",
+      "signing": "ad-hoc-not-notarized",
+      "buildSourceCommit": "63aeea8d2a928e97cb3d868865b51b4913f0463f",
+      "testedEnvironment": "macOS 14.7 / x86_64 / physical Intel iMac; Darwin 25.6.0 / arm64 / CI VM",
+      "checks": [
+        {
+          "file": "macos-native-acceptance.json",
+          "sha256": "f9d366617fed8270aa843f43cd2f83093f8b00434cfb1b9aefcfa714deac1923",
+          "result": "PASS"
+        },
+        {
+          "file": "macos-physical-acceptance.json",
+          "sha256": "d17ec870141b82bbc84fca39d23c2ba8e880d7c7f502b7b54837310fc737d62b",
+          "result": "PASS"
+        },
+        {
+          "file": "human-code-identity.json",
+          "sha256": "b34f45558c8a58d757d034ab49280919587f3a7ae163b06c8b58f0e21b094487",
+          "result": "PASS"
+        },
+        {
+          "file": "human-visual-acceptance.json",
+          "sha256": "36c0c37d8e208e1326013a7e935fa9425d82d0888a19ca47fb97529485f4bcd7",
+          "result": "PASS"
+        }
+      ],
+      "limits": [
+        "No notarization or Developer ID signature",
+        "No physical MacBook or consumer HDMI device acceptance",
+        "ARM VM window sizes were constrained; wide/detail images retain the explicit code-identical baseline capture identity",
+        "Short-ticker native movement not proven by the retained stills"
+      ]
+    }
+  ],
+  "unavailablePlatforms": [
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "reason": "Native package qualification is not complete. No installer is offered."
+    }
+  ],
+  "thirdPartySources": {
+    "file": "Turniermanager-0.9.0-beta.2-third-party-sources.tar.gz",
+    "bytes": 18377570,
+    "sha256": "585446a4c0839204d8be2af0e66473fb91dd069d13c5d3f51ffbb75886c78000",
+    "scope": "Corresponding third-party sources, patches and original build configuration; no application source"
+  },
+  "publicTagRole": "Public documentation and feedback repository revision; not public application source",
+  "privateSourceIntegrationCommit": "c5eeb195a2e19d8f1c6cdc4ceb6e5377f0e49668",
+  "privateSourceIntegrationDate": "2026-10-20"
+}

@@ -1,0 +1,142 @@
+{
+  "result": "PASS",
+  "scope": "Every changed native Mach-O code/data section across both architectures; code-signature containers are excluded, original payloads unmodified",
+  "baselineInstallerSha256": "b6c257a9f61aacad97a1f95f941add87c47a1ea486f347018adbad9c507f0c20",
+  "qualifiedInstallerSha256": "f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9",
+  "totalBundleEntries": 292,
+  "unchangedWholeEntries": 276,
+  "changedSigningOrNativeEntries": 16,
+  "nativeCodeDataChecks": [
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+      "architectures": [
+        "16777223:3",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 68,
+      "sectionDigestsSha256": "69c5dfd1e5c375c648c6bc3a8f587552cfb72f0f854ca866e9cbd8ec991a559d",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+      "architectures": [
+        "16777223:2147483651",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 56,
+      "sectionDigestsSha256": "88a1e6486f246219d4b5d5303bdd8e14b1f965da8a4b2557aecb0afb9146dc23",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+      "architectures": [
+        "16777223:3",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 20,
+      "sectionDigestsSha256": "f3d0f0f9395c838d7d2d3e2085a85bb69b24bb4ac16c511a4251ab754aa2766e",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+      "architectures": [
+        "16777223:3",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 37,
+      "sectionDigestsSha256": "772a37bb8aac2e5f76a39ad09f4b865a8ea1c8385b76c449f6115efa2835771e",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+      "architectures": [
+        "16777223:3",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 48,
+      "sectionDigestsSha256": "4b7b00bffaa57142c9e9d5932340904f0c4ce83dde925263255b1378fd2529c0",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+      "architectures": [
+        "16777223:3",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 48,
+      "sectionDigestsSha256": "6dd2fc1ef2262e3538673cc9697dc42ca3a720750bde9cce2a5279945afea748",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+      "architectures": [
+        "16777223:2147483651",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 47,
+      "sectionDigestsSha256": "1811683a41c5fe00d6a155badbab0239d25d4fd08524ec469e83388c645fa778",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+      "architectures": [
+        "16777223:3",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 46,
+      "sectionDigestsSha256": "185e962cf7d99cce89e0d7ebade50311323ffdfbfcd9b9f8805bb2a76695e1d9",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Turniermanager Helper (GPU).app/Contents/MacOS/Turniermanager Helper (GPU)",
+      "architectures": [
+        "16777223:2147483651",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 28,
+      "sectionDigestsSha256": "bdccd695e8e42e41a635b6d1b0c2ed639b6a3959291b04f1af1a2f9a1cfb44a5",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Turniermanager Helper (Plugin).app/Contents/MacOS/Turniermanager Helper (Plugin)",
+      "architectures": [
+        "16777223:2147483651",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 28,
+      "sectionDigestsSha256": "bdccd695e8e42e41a635b6d1b0c2ed639b6a3959291b04f1af1a2f9a1cfb44a5",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Turniermanager Helper (Renderer).app/Contents/MacOS/Turniermanager Helper (Renderer)",
+      "architectures": [
+        "16777223:2147483651",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 28,
+      "sectionDigestsSha256": "bdccd695e8e42e41a635b6d1b0c2ed639b6a3959291b04f1af1a2f9a1cfb44a5",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/Frameworks/Turniermanager Helper.app/Contents/MacOS/Turniermanager Helper",
+      "architectures": [
+        "16777223:2147483651",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 28,
+      "sectionDigestsSha256": "bdccd695e8e42e41a635b6d1b0c2ed639b6a3959291b04f1af1a2f9a1cfb44a5",
+      "result": "PASS"
+    },
+    {
+      "file": "Contents/MacOS/Turniermanager",
+      "architectures": [
+        "16777223:2147483651",
+        "16777228:0"
+      ],
+      "codeAndDataSections": 9,
+      "sectionDigestsSha256": "5726927a612848078ec8524e2b36f0f0afa29179d3f10300fcc55e4a8f7c6392",
+      "result": "PASS"
+    }
+  ],
+  "limitation": "Section comparison does not assert identical code signatures or identical whole installer bytes."
+}

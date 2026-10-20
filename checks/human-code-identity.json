@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "version": "0.9.0-beta.2",
+  "sourceCommitRole": "Frozen delivered-application-code baseline; actual package build commits are recorded per platform",
+  "sourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956",
+  "qualifiedMacBuildSourceCommit": "63aeea8d2a928e97cb3d868865b51b4913f0463f",
+  "qaOnlyResumeFixSourceCommit": "0d2f7e117daa48e7280f47a7ee00904f2d29933f",
+  "humanOutputCount": 9,
+  "humanOutputSetSha256": "a7bfe928b725fabc39250e229bc609b0208ebd72381e90c11725716948bc7150",
+  "allHumanOutputsByteIdentical": true,
+  "nativeMacCodeDataIdentical": true,
+  "nativeMacFilesCompared": 13,
+  "nativeMacSectionsCompared": 491,
+  "nativeMacSectionComparisonSha256": "f2abf1e69ddf8425b5818fa59aeb3ea025ebbd0e688ecdf8023923a1427505c6",
+  "baselineCapturedInstallerSha256": "b6c257a9f61aacad97a1f95f941add87c47a1ea486f347018adbad9c507f0c20",
+  "qualifiedMacInstallerSha256": "f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9",
+  "limits": "Installer and code-signature bytes differ. This is explicit code/data equivalence, not a claim of identical whole installers or identical capture provenance."
+}
