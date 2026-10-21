@@ -12,19 +12,19 @@ Mac ist ad hoc signiert und nicht notarisiert; Windows ist unsigniert. Beim Öff
 
 ## Die Spieleranzeige
 
-![Echter Screenshot der Beta-Spieleranzeige mit Uhr, Blinds, Spielerzahlen und Auszahlungen. Die sichtbare App-Sprache ist Englisch.](images/player-display.png)
+![Deutsche Lite-Spieleranzeige mit Uhr, Blinds, Spielerzahlen und Auszahlungen.](images/player-display-de.png)
 
 ## Der Arbeitsplatz
 
-![Echter Screenshot des Beta-Arbeitsplatzes mit Uhrbedienung, Spielerzahlen und Schnellaktionen. Die sichtbare App-Sprache ist Englisch.](images/workspace.png)
+![Deutscher Lite-Arbeitsplatz mit Uhrbedienung, Spielerzahlen und Schnellaktionen.](images/workspace-de.png)
 
-Originale Beta-Aufnahmen vom 20. Oktober 2026 mit Beispieldaten. Die beiden Bilddateien sind bytegleiche Kopien der geprüften Website-Bilder; Herkunft und unterschiedliche Installer-Identitäten bleiben in den [Bildnachweisen](checks/human-visual-acceptance.json) dokumentiert. Es sind Aufnahmen der Desktop-App, keine Bilder der Browserdemo.
+Echte Lite-Oberfläche, am 21. Oktober 2026 isoliert mit deutschen Beispieldaten gerendert; keine Aufnahme eines nativen App-Fensters. Die verwendeten UI-Komponenten sind gegenüber dem geprüften Beta-Code unverändert. Die PNGs wurden direkt aufgenommen und nicht nachbearbeitet. Die ursprünglichen englischen Fensteraufnahmen bleiben mit ihren [Bildnachweisen](checks/human-visual-acceptance.json) erhalten.
 
 ## Selbst ausprobieren
 
-[Arbeitsplatz ausprobieren](https://turniermanager-beta.pages.dev/de/#demo) · [Blinds & Pausen ausprobieren](https://turniermanager-beta.pages.dev/de/#demo-blinds)
+[Arbeitsplatz ausprobieren](https://turniermanager-beta.pages.dev/de/#demo)
 
-Die Website bietet eine begrenzte interaktive Vorschau mit Beispieldaten. Dort kannst du Uhr, Zählaktionen, gezieltes Rückgängig, zukünftige Blinds/Pausen und Prozentstaffeln ausprobieren. Alle Tabs zeigen denselben lokalen Demostand. Eingaben bleiben im Arbeitsspeicher der Browserseite; es wird kein echtes Turnier gespeichert. GitHub zeigt diese README statisch — die Demo öffnet sich auf der Website.
+Die Website bietet eine begrenzte interaktive Vorschau mit Beispieldaten. Dort kannst du Uhr, Spielerzahlen, Rückgängig, kommende Blinds/Pausen und Prozentstaffeln ausprobieren. Alle Tabs zeigen denselben lokalen Demostand. Änderungen gelten nur für diese Vorschau. Beim Neuladen startet die Demo von vorn. GitHub zeigt diese README statisch — die Demo öffnet sich auf der Website.
 
 ## Für deinen Pokerabend
 
