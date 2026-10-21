@@ -1,5 +1,11 @@
 # Versionshinweise / Release notes
 
+## 21. Oktober 2026 — Interaktive Website-Vorschau / Interactive website preview
+
+Die Website zeigt eine begrenzte interaktive Vorschau mit Beispieldaten: Uhr, Spielerzahlen, Blinds/Pausen, Prozentstaffeln und Spieleranzeige teilen sich einen lokalen Demostand. Keine dauerhafte Speicherung oder Übertragung von Demoeingaben. Neutrale Produkttexte, echte Produktbilder in der README und eine kompakte angeheftete Navigation. Die Desktop-App und alle Release-Dateien bleiben unverändert.
+
+The website now offers a limited interactive preview with example data. The clock, player counts, blinds/breaks, percentage payouts and player display share one local demo state. Demo input is not transmitted or saved persistently. Product copy is neutral, the README includes genuine screenshots, and a compact header stays available while scrolling. The desktop app and all release assets are unchanged.
+
 ## 21. Oktober 2026 — Website und Hilfe / Website and help
 
 Verständliche DE/EN-Texte, Hilfeschritte und Feedbackseiten. E-Mail steht als privater Weg ohne GitHub-Konto zuerst; öffentliche GitHub-Formulare bleiben erreichbar. Allgemeines Feedback braucht nur ein Textfeld. Vorschaubilder öffnen eine Großansicht auf derselben Seite und schließen per Klick oder Escape. **Keine neue App-Version:** Installer, Release-Tag und Prüfsummen von 0.9.0-beta.2 bleiben unverändert.

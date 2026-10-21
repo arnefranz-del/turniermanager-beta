@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Privat und ohne GitHub schreiben / Private feedback without GitHub
     url: https://turniermanager-beta.pages.dev/de/feedback/
-    about: E-Mail an Arne und kopierbare Adresse, auch auf Englisch. / Email Arne or copy the address; English is also available.
+    about: Privater E-Mail-Weg und kopierbare Adresse, auch auf Englisch. / Send private feedback by email or copy the address; English is also available.
   - name: Sicherheitsproblem privat melden / Private security report
     url: mailto:hybrid-larval-1l@icloud.com?subject=Turniermanager%20security
     about: Keine öffentliche Meldung mit ausnutzbaren Details. / Do not publish exploitable details in an issue.
