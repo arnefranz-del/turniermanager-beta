@@ -22,9 +22,9 @@ Original beta captures from 20 October 2026, using example data. The two files a
 
 ## Try the controls
 
-[Try the workspace](https://turniermanager-beta.pages.dev/en/#demo) · [Try blinds & breaks](https://turniermanager-beta.pages.dev/en/#demo-blinds)
+[Try the workspace](https://turniermanager-beta.pages.dev/en/#demo)
 
-The website offers a limited interactive preview with example data. Try the clock, player counts, targeted Undo, future blinds/breaks and percentage payout ranges. All tabs share the same local demo state. Input stays in the browser page’s memory; no real tournament is saved. GitHub displays this README statically — the demo opens on the website.
+The website offers a limited interactive preview with example data. Try the clock, player counts, targeted Undo, future blinds/breaks and percentage payout ranges. All tabs share the same local demo state. Changes apply only to this preview. Reloading resets the demo. GitHub displays this README statically — the demo opens on the website.
 
 ## For your tournament night
 
