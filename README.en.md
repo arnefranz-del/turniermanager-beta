@@ -1,32 +1,48 @@
 # Turniermanager Lite
 
-[Website](https://turniermanager-beta.pages.dev/en/) · [Deutsch](README.md) · [Help](https://turniermanager-beta.pages.dev/en/help/) · [Installation](docs/INSTALLATION.en.md) · [Questions & answers](docs/FAQ.md)
+**Set up and run poker tournaments. For Windows and Mac.** Keep track of the clock, player count and prize pool while players follow the game on a TV or second screen.
 
-**Set up and run poker tournaments. For Windows and Mac.** Free beta 0.9.0-beta.2, released on 20 October 2026. This description was revised on 21 October; the app and downloads are unchanged.
+[Website](https://turniermanager-beta.pages.dev/en/) · [Interactive demo](https://turniermanager-beta.pages.dev/en/#demo) · [Deutsch](README.md)
 
-## Not just another poker app. From the floor. For the floor.
+[Download for Mac — Apple Silicon and Intel](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · [Download for Windows — x64](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe)
 
-Set up your tournament once and use it again next time. Keep track of the clock, entries and prize pool while your players follow the blinds, breaks and payouts on a separate screen.
+Free beta **0.9.0-beta.2**, released on 20 October 2026. Private and commercial evaluation is free, with no subscription or later payment obligation for this evaluation. Future versions may have different terms. [Full beta terms](BETA_TERMS.md).
 
-Turniermanager is for home-game hosts and tournament organisers. It runs locally without an app account or internet connection. It counts players without keeping participant names or assigning seats. You can:
+Mac is ad-hoc signed and not notarized; Windows is unsigned. Your computer may show a security warning. Read the [installation guide](docs/INSTALLATION.en.md) before opening it. Keep protection enabled; do not bypass a malware or damaged-file warning.
 
-- prepare templates for Freezeout, Second Chance, Re-Entry or Rebuy, with an add-on where appropriate;
-- add players, record eliminations and keep track of rebuys;
-- control the clock, levels and breaks, with manual time correction when needed;
-- let normal payouts update automatically from a saved payout rule;
-- open the player display and keep a separate backup.
+## The player display
 
-I’m Arne. I’ve been involved in live poker for more than 15 years, and I know how quickly things can move when you’re running a tournament. That experience shapes the way Turniermanager works. I use AI to help with the programming.
+![Genuine beta desktop screenshot of the player display, showing the clock, blinds, player counts and payouts.](images/player-display.png)
 
-## Try the beta
+## The workspace
 
-You can evaluate this beta for free, privately or as a commercial organiser. That evaluation creates no later payment obligation. Future versions may have different terms. See the [beta terms](BETA_TERMS.md) for the full permission and its limits.
+![Genuine beta desktop screenshot of the workspace with clock controls, player counts and quick actions.](images/workspace.png)
 
-[Download for Mac](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) — Apple Silicon and Intel, DMG. Not Developer ID signed or notarized yet; macOS may block it when first opened.
+Original beta captures from 20 October 2026, using example data. The two files are byte-identical copies of the approved website images. Their origin and distinct installer identities remain documented in the [visual evidence](checks/human-visual-acceptance.json). These are screenshots of the desktop app, not the browser demo.
 
-[Download for Windows](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe) — x64, Setup. Not digitally signed yet; Windows may show a security warning.
+## Try the controls
 
-Read the [installation guide](docs/INSTALLATION.en.md) before opening the app. Try a practice run with your own computer and display before your first event. Keep system protection enabled; do not bypass an actual malware or damaged-file warning.
+[Try the workspace](https://turniermanager-beta.pages.dev/en/#demo) · [Try blinds & breaks](https://turniermanager-beta.pages.dev/en/#demo-blinds)
+
+The website offers a limited interactive preview with example data. Try the clock, player counts, targeted Undo, future blinds/breaks and percentage payout ranges. All tabs share the same local demo state. Input stays in the browser page’s memory; no real tournament is saved. GitHub displays this README statically — the demo opens on the website.
+
+## For your tournament night
+
+- Templates for Freezeout, Second Chance, Re-Entry or Rebuy, with an add-on where appropriate.
+- Add players, record eliminations and track rebuys without keeping participant names.
+- Control the clock, levels and breaks; show the tournament on a separate screen.
+- Let normal payouts update automatically from a valid saved rule.
+- Work locally without an app account or internet connection, keep backups and return to active tournaments later.
+
+First practice run: edit and save a template, load the tournament, add players, check payouts and the player display, then start the clock. [Full help](https://turniermanager-beta.pages.dev/en/help/) · [Questions & answers](docs/FAQ.md).
+
+## Feedback
+
+**Private, no GitHub account:** [Send feedback by email](mailto:hybrid-larval-1l@icloud.com?subject=Turniermanager%20%E2%80%94%20feedback). This opens your mail app; you send the message there. The [feedback page](https://turniermanager-beta.pages.dev/en/feedback/) has an address you can copy if no mail app is configured.
+
+**Public, GitHub account required:** [Report a bug](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=bug.yml) · [Suggest an improvement](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=feedback.yml). General feedback needs only a message; version and operating system are optional.
+
+In the app: **Settings → Application**. Logs and backups are not attached automatically. Do not publish real participant data, full backups or credentials. [Report security issues privately](SECURITY.md). Event support and response times are not guaranteed.
 
 <details>
 <summary>Technical details and checksums</summary>
@@ -47,20 +63,12 @@ Installation, normal quit and reopen, resume, backup and restoration were checke
 
 </details>
 
-## What worked? What got in the way?
+## Product documentation and rights
 
-A few lines are enough. **Private, no GitHub account needed:** [Email Arne](mailto:hybrid-larval-1l@icloud.com?subject=Turniermanager%20%E2%80%94%20feedback). This opens your mail app; you still need to send the message there. No mail app configured? Copy `hybrid-larval-1l@icloud.com` into your webmail service. [Feedback page with a copy button](https://turniermanager-beta.pages.dev/en/feedback/).
-
-**Public, GitHub account required:** [Report a bug](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=bug.yml) or [suggest an improvement](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=feedback.yml). General feedback needs only one text field; version and operating system are optional.
-
-In the app, open **Settings → Application**. “Give feedback” and “Report a bug” open public GitHub forms; the email option opens your mail app. The app does not attach logs or backups automatically. You submit the message yourself on GitHub or in your mail app. Do not publish real participant data, full backups or credentials. Report security issues [privately](SECURITY.md). There is no promised event support or response time.
-
-## What is public here
-
-This repository contains product documentation, downloads and feedback. The app source remains private; it is not an open-source release of the app. Included third-party software keeps its own rights: [notices](THIRD_PARTY_NOTICES.md) and [sources](docs/THIRD_PARTY_SOURCES.md).
+This repository contains product documentation, downloads and feedback. The app source remains private; it is not an open-source release of the app. Included third-party software keeps its rights: [notices](THIRD_PARTY_NOTICES.md) and [sources](docs/THIRD_PARTY_SOURCES.md).
 
 Player profiles, check-in, seating, table balancing, PKO/bounties, satellites, remote control and synchronization between computers are not included. Each computer has its own local state.
 
 Provider and contact: Turniermanager · Arne Franz, Rita-Maiburg-Straße 40, 70794 Filderstadt. [Email](mailto:hybrid-larval-1l@icloud.com).
 
-The release tag identifies the public documentation and manifest, not an app-source tag. The real origin of the beta screenshots and the distinct build identities remain documented in the linked technical evidence.
+Website/documentation updated: 21 October 2026. App, installers and release tag unchanged. The tag identifies public documentation and the manifest, not app source.
