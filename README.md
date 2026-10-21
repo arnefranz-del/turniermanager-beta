@@ -1,26 +1,35 @@
 # Turniermanager Lite
 
-[Website](https://turniermanager-beta.pages.dev/de/) · [English](README.en.md) · [Installation](docs/INSTALLATION.de.md) · [Fragen & Antworten](docs/FAQ.md) · [Beta-Nutzung](BETA_TERMS.md)
+[Website](https://turniermanager-beta.pages.dev/de/) · [English](README.en.md) · [Hilfe](https://turniermanager-beta.pages.dev/de/help/) · [Installation](docs/INSTALLATION.de.md) · [Fragen & Antworten](docs/FAQ.md)
 
-**Beta 0.9.0-beta.2 · 20. Oktober 2026.** Verfügbar für macOS Universal und Windows x64. Lies vor dem ersten Probelauf die Installations- und Signierungshinweise.
+**Pokerturniere vorbereiten und leiten. Für Windows und Mac.** Kostenlose Beta 0.9.0-beta.2, veröffentlicht am 20. Oktober 2026. Diese Beschreibung wurde am 21. Oktober überarbeitet; die App und die Downloads bleiben gleich.
 
-## Vom Floor. Für den Floor.
+## Nicht noch ein Pokerprogramm. Vom Floor. Für den Floor.
 
-Nicht noch ein Pokerprogramm. Turniermanager bringt Uhr, Entries und Preisgeld an einen Arbeitsplatz. Bereite dein Turnier vor, buche Spieler und Nachkäufe als Anzahl und steuere die Uhr. Auf dem zweiten Bildschirm sehen die Spieler Zeit, Blinds und Auszahlungen.
+Bereite dein Turnier einmal vor und lade es beim nächsten Mal wieder. Während gespielt wird, behältst du Uhr, Spielerzahl und Preisgeld im Blick. Auf dem Fernseher oder zweiten Bildschirm sehen die Spieler Blinds, Pausen und Auszahlungen.
 
-Turniermanager Lite ist eine lokale Desktop-App für reguläre NLHE-Turniere mit anonymen Spielerzahlen. Du kannst:
+Turniermanager passt zum Homegame und zur Turnierleitung. Die App läuft lokal ohne Konto und ohne Internet. Sie zählt Spieler, verwaltet aber keine Teilnehmernamen oder Sitzplätze. Du kannst:
 
-- Vorlagen mit Blinds, Pausen und passenden Nachkäufen vorbereiten;
-- Spielerzahlen und Nachkäufe als Mengen buchen und eine konkrete Buchung zurücknehmen;
-- Uhr, Level und Pausen steuern und die Turnierzeit bei Bedarf korrigieren;
-- Preisgeld und Gebühren getrennt verfolgen und Auszahlungsstaffeln prüfen;
-- eine Spieleranzeige auf dem zweiten Bildschirm zeigen und lokale Sicherungen erstellen.
+- Vorlagen für Freezeout, Second Chance, Re-Entry oder Rebuy mit passendem Add-on vorbereiten;
+- Spieler hinzufügen, ein Ausscheiden erfassen und passende Nachkäufe eintragen;
+- Uhr, Level und Pausen steuern und die Zeit bei Bedarf korrigieren;
+- normale Auszahlungen anhand einer gespeicherten Regel automatisch aktualisieren lassen;
+- die Spieleranzeige öffnen und eine Sicherung für später erstellen.
 
-Arne Franz ist seit über 15 Jahren im Live-Poker aktiv und kennt die Arbeit als Floorman. Diese Erfahrung bestimmt das Konzept, die Turnierabläufe und die Produktarchitektur. Die Software wird mit Unterstützung von KI umgesetzt.
+Ich bin Arne und seit über 15 Jahren im Live-Poker unterwegs. Ich kenne die Abläufe am Tisch und die Situationen, in denen es für die Turnierleitung schnell gehen muss. Diese Erfahrung steckt im Konzept und in der Bedienung von Turniermanager. Bei der Programmierung unterstützt mich KI.
 
-## Ausprobieren & Rückmeldung geben
+## Die Beta ausprobieren
 
-Die veröffentlichte Beta darf privat und gewerblich kostenlos und freiwillig erprobt werden. Für diese Erprobung entstehen keine späteren Zahlungspflichten. Künftige Versionen können ein anderes Lizenzmodell haben. Die genauen Bedingungen stehen in [BETA_TERMS.md](BETA_TERMS.md).
+Du darfst diese Beta kostenlos privat oder als gewerblicher Veranstalter erproben. Dafür entstehen keine späteren Zahlungspflichten. Künftige Versionen können andere Bedingungen haben. Die vollständige Erlaubnis und ihre Grenzen stehen in den [Beta-Bedingungen](BETA_TERMS.md).
+
+[Für Mac herunterladen](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) — Apple Silicon und Intel, DMG. Noch nicht mit einem Apple-Entwicklerzertifikat signiert und nicht notarisiert; macOS kann den Start blockieren.
+
+[Für Windows herunterladen](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe) — x64, Setup. Noch nicht digital signiert; Windows kann eine Sicherheitswarnung anzeigen.
+
+Lies vor dem ersten Öffnen die [Installationshilfe](docs/INSTALLATION.de.md). Mach vor dem ersten Turnier einen Probelauf mit deinem Rechner und Bildschirm. Lass die Schutzfunktionen eingeschaltet; eine echte Schadsoftware- oder Beschädigungswarnung nicht umgehen.
+
+<details>
+<summary>Technische Details und Prüfsummen</summary>
 
 [macOS Universal · DMG](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · 231.487.943 Byte
 
@@ -36,15 +45,22 @@ Installation, normales Beenden und Wiederöffnen, Wiederaufnahme, Sicherung und 
 
 [Release & SHA-256](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2) · [Manifest](release-manifest.json) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Third-party sources](docs/THIRD_PARTY_SOURCES.md)
 
-Was war beim Vorbereiten oder im Turnier unnötig schwer zu finden? [Gib Feedback](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=feedback.yml) oder [melde einen Fehler](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=bug.yml). Ohne GitHub-Konto: [hybrid-larval-1l@icloud.com](mailto:hybrid-larval-1l@icloud.com). Keine echten Teilnehmerdaten, vollständigen Backups oder Zugangsdaten öffentlich hochladen. Sicherheitsprobleme bitte [privat melden](SECURITY.md).
+</details>
 
-## Was dieses Repository enthält
+## Was klappt gut? Was nervt?
 
-Hier liegen Produktbeschreibung, Hilfe, Versionshinweise und Feedback. Der App-Quellcode bleibt privat. Das öffentliche Produktrepo ist keine Open-Source-Freigabe der App. Hinweise und Rechte für tatsächlich enthaltene Drittsoftware gelten weiter und gehören zum jeweiligen Paket.
+Ein paar Sätze reichen. **Privat und ohne GitHub-Konto:** [E-Mail an Arne](mailto:hybrid-larval-1l@icloud.com?subject=Turniermanager%20%E2%80%94%20Feedback). Der Link öffnet dein Mailprogramm; gesendet wird erst dort. Kein Mailprogramm eingerichtet? Kopiere die Adresse `hybrid-larval-1l@icloud.com` in deinen Webmail-Dienst. [Feedbackseite mit Kopierknopf](https://turniermanager-beta.pages.dev/de/feedback/).
 
-Spielerprofile, Check-in, Seating, Tischbalancing, Remote-Steuerung und Synchronisation zwischen Rechnern gehören nicht zu dieser Lite-Beta. Ein zweiter Rechner ist eine eigene lokale Instanz.
+**Öffentlich, GitHub-Konto nötig:** [Fehler melden](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=bug.yml) oder [Verbesserung vorschlagen](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=feedback.yml). Allgemeines Feedback braucht nur ein Textfeld; Version und Betriebssystem sind freiwillig.
 
-Anbieter und Kontakt: Turniermanager · Arne Franz, Rita-Maiburg-Straße 40, 70794 Filderstadt. E-Mail: [hybrid-larval-1l@icloud.com](mailto:hybrid-larval-1l@icloud.com).
+In der App findest du die Links unter **Einstellungen → Programm**. „Feedback geben“ und „Fehler melden“ öffnen das öffentliche GitHub-Formular; die E-Mail-Alternative öffnet dein Mailprogramm. Die App überträgt keine Logs oder Backups automatisch. Erst auf GitHub beziehungsweise im Mailprogramm sendest du deine Nachricht ab. Keine echten Teilnehmerdaten, vollständigen Backups oder Zugangsdaten veröffentlichen. Sicherheitsprobleme bitte [privat melden](SECURITY.md). Eine Betreuung während eines Turniers oder eine feste Antwortzeit ist nicht zugesagt.
 
+## Was hier öffentlich ist
 
-Der öffentliche Release-Tag bezeichnet den Dokumentations- und Manifeststand dieses Repos. Er ist kein App-Source-Tag. Das Manifest unterscheidet die eingefrorene ausgelieferte Codebasis von den tatsächlichen privaten Build-Commits. Die Bilder sind echte Beta-2-Aufnahmen; ursprüngliche Paket-/Quellidentitäten und geprüfte Codegleichheit bleiben ausdrücklich dokumentiert.
+Dieses Repository enthält Produktunterlagen, Downloads und Feedback. Der App-Quellcode bleibt privat; es ist keine Open-Source-Freigabe der App. Rechte enthaltener Drittsoftware bleiben unberührt: [Hinweise](THIRD_PARTY_NOTICES.md) und [Quellen](docs/THIRD_PARTY_SOURCES.md).
+
+Spielerprofile, Check-in, Seating, Tischbalancing, PKO/Bounty, Satellites, Remote-Steuerung und Synchronisation zwischen Rechnern sind nicht enthalten. Jeder Rechner hat seinen eigenen lokalen Stand.
+
+Anbieter und Kontakt: Turniermanager · Arne Franz, Rita-Maiburg-Straße 40, 70794 Filderstadt. [E-Mail](mailto:hybrid-larval-1l@icloud.com).
+
+Der Release-Tag bezeichnet den öffentlichen Dokumentations- und Manifeststand, keinen App-Source-Tag. Die echte Herkunft der Beta-Bilder und die unterschiedlichen Build-Identitäten bleiben in den verlinkten technischen Nachweisen dokumentiert.
