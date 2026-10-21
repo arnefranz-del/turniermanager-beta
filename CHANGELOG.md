@@ -1,14 +1,20 @@
 # Versionshinweise / Release notes
 
+## 21. Oktober 2026 — Website und Hilfe / Website and help
+
+Verständliche DE/EN-Texte, Hilfeschritte und Feedbackseiten. E-Mail steht als privater Weg ohne GitHub-Konto zuerst; öffentliche GitHub-Formulare bleiben erreichbar. Allgemeines Feedback braucht nur ein Textfeld. Vorschaubilder öffnen eine Großansicht auf derselben Seite und schließen per Klick oder Escape. **Keine neue App-Version:** Installer, Release-Tag und Prüfsummen von 0.9.0-beta.2 bleiben unverändert.
+
+Clearer DE/EN copy, task-based help and feedback pages. Private email without a GitHub account comes first; public GitHub forms remain available. General feedback needs just one text field. Screenshots open in a larger view on the same page and close on click or Escape. **No new app version:** the 0.9.0-beta.2 installers, release tag and checksums are unchanged.
+
 ## 0.9.0-beta.2 — Öffentliche Beta / Public beta
 
 20. Oktober 2026 / 20 October 2026. Kostenlos für private und gewerbliche Erprobung gemäß [Beta-Bedingungen](BETA_TERMS.md).
 
-Die erste öffentliche Lite-Beta umfasst Vorlagen, anonyme Mengenbuchungen, Turnieruhr und Pausen, Preisgeldstaffeln, die Spieleranzeige auf einem zweiten Bildschirm sowie lokale Sicherung und Wiederaufnahme.
+Bereite Turniervorlagen vor, füge Spieler als Anzahl hinzu und leite Uhr, Level und Pausen. Die Spieleranzeige zeigt den aktuellen Stand auf einem zweiten Bildschirm. Normale Auszahlungen aktualisieren sich mit gültiger gespeicherter Regel und passendem Entry-Bereich automatisch. Sichere deinen Stand lokal und setze ein aktives Turnier später fort.
 
-- Abgeschlossene oder abgebrochene Durchführungen erscheinen nach dem Neustart nicht mehr als fortsetzbar. Gespeicherte Archive bleiben erhalten.
+- Ausdrücklich beendete oder abgebrochene Turniere lassen sich nach dem Neustart nicht fortsetzen. Gespeicherte Archive bleiben erhalten.
 - Ein aktiver Stand bleibt neben abgeschlossenen Archiven auffindbar. Mehrere aktive oder unklare Stände erfordern eine bewusste Auswahl beziehungsweise Prüfung.
-- Eine unklare Buchungsbestätigung bindet die Wiederaufnahme an genau den betroffenen Vorgang. Hinweise nach einer Uhrunterbrechung erklären die erforderliche Prüfung der Turnierzeit.
+- Ist unklar, ob eine Aktion gespeichert wurde, prüfe zuerst den betroffenen Schritt. Nach einer Uhrunterbrechung erklärt die App, wie du die Turnierzeit prüfst und dann fortsetzt.
 - Feedback und Fehlermeldungen sind aus der App erreichbar; es werden keine Logs oder Backups automatisch übertragen.
 
 **Download: macOS Universal und Windows x64.** [Dateiname, Größe und SHA-256](release-manifest.json) gehören zum konkret geprüften Paket. Der Mac-Installer ist ad hoc signiert und nicht notarisiert. Native Prüfungen liefen in einer ARM64-CI-VM (Darwin 25.6.0) und auf einem Intel-iMac mit macOS 14.7. Die Übernahme eines synthetischen Beta-1-Stands sowie normales Beenden und Wiederöffnen wurden auf dem iMac geprüft. Ein MacBook, jeder mögliche Bildschirm und alle Betriebssystemversionen sind damit nicht geprüft.
@@ -21,11 +27,11 @@ Als Nächstes werden freiwillige Rückmeldungen gesammelt und etwa 30 Tage nach 
 
 ---
 
-Free private and commercial evaluation under the [beta terms](BETA_TERMS.md). This first public Lite beta includes reusable templates, anonymous quantity bookings, the tournament clock and breaks, payout ranges, a second-screen player display, local backup and resume.
+Free private and commercial evaluation under the [beta terms](BETA_TERMS.md). Prepare tournament templates, add players as a count and run the clock, levels and breaks. Players follow the current tournament on a separate screen. Normal payouts update automatically with a valid saved rule and a matching entry range. Keep a local backup and return to an active saved tournament later.
 
 - Finished and cancelled runs are no longer offered as resumable after restart. Stored archives remain.
 - One active run stays identifiable alongside finished archives. Multiple active or uncertain states require deliberate selection or review.
-- An uncertain booking acknowledgement binds recovery to the affected operation. Clock-interruption messages explain the required tournament-time review.
+- If it is unclear whether an action was saved, review that step first. After a clock interruption, the app explains how to check the tournament time before resuming.
 - Feedback and bug reports can be opened from the app. No logs or backups are uploaded automatically.
 
 **Download: macOS Universal and Windows x64.** The exact filename, size and SHA-256 are in the [release manifest](release-manifest.json). The Mac installer is ad-hoc signed and not notarized. Native checks ran in an ARM64 CI VM (Darwin 25.6.0) and on an Intel iMac running macOS 14.7, including adoption of a synthetic beta-1 state, normal quit and reopen. This does not qualify a MacBook, every monitor or every OS version.

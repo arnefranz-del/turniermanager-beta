@@ -1,46 +1,39 @@
 name: Feedback geben / Share feedback
-description: Was war hilfreich, und wo musstest du suchen? / What helped, and what took too much searching?
+description: Ein paar Sätze reichen. / A few lines are enough.
+title: "Feedback zu Turniermanager / Turniermanager feedback"
 labels: [feedback]
 body:
   - type: markdown
     attributes:
       value: |
-        Dieses Issue ist öffentlich. Keine echten Teilnehmer-/Kundendaten, vollständigen Backups, Passwörter oder Tokens hochladen. Ohne GitHub-Konto erreichst du Arne unter hybrid-larval-1l@icloud.com.
+        Öffentlich, GitHub-Konto nötig. Privat und ohne GitHub: https://turniermanager-beta.pages.dev/de/feedback/
+        Keine echten Teilnehmerdaten, vollständigen Backups, Passwörter oder Tokens hochladen. Sicherheitsprobleme bitte privat an hybrid-larval-1l@icloud.com.
 
-        This issue is public. Do not upload real participant/customer data, complete backups, passwords or tokens. Without a GitHub account, email Arne at hybrid-larval-1l@icloud.com.
-  - type: input
-    id: version
-    attributes:
-      label: Appversion / App version
-      description: Steht unter Über. / Shown under About.
-      placeholder: 0.9.0-beta.2
-    validations:
-      required: true
-  - type: input
-    id: platform
-    attributes:
-      label: Betriebssystem / Operating system
-      description: Bitte genaue OS-Version ergänzen. / Please include the exact OS version.
-      placeholder: macOS … / Windows …
-    validations:
-      required: true
+        Public, GitHub account required. Private feedback without GitHub: https://turniermanager-beta.pages.dev/en/feedback/
+        Do not upload real participant data, full backups, passwords or tokens. Report security issues privately to hybrid-larval-1l@icloud.com.
   - type: textarea
     id: problem
     attributes:
-      label: Was wolltest du tun? Was hat funktioniert oder gestört? / What were you doing? What worked or got in the way?
+      label: Deine Rückmeldung / Your feedback
+      description: Was hat geholfen, war umständlich oder hat nicht funktioniert? / What helped, got in the way or did not work?
     validations:
       required: true
-  - type: textarea
-    id: expected
+  - type: input
+    id: version
     attributes:
-      label: Was sollte einfacher werden? / What would you like to be easier?
+      label: Appversion, falls bekannt / App version, if known
+      description: Freiwillig. Einstellungen → Programm / Optional. Settings → Application.
+      placeholder: 0.9.0-beta.2
     validations:
-      required: true
-  - type: textarea
-    id: steps
+      required: false
+  - type: input
+    id: platform
     attributes:
-      label: Beispiel oder kurze Schritte / Example or short steps
-      description: Optional. Keine echten Teilnehmerdaten. / Optional. Do not include real participant data.
+      label: Betriebssystem, falls bekannt / Operating system, if known
+      description: Freiwillig. Windows oder Mac genügt; keine genaue Buildnummer nötig. / Optional. Windows or Mac is enough; no exact build number needed.
+      placeholder: Windows / macOS
+    validations:
+      required: false
   - type: dropdown
     id: usage
     attributes:
@@ -57,3 +50,5 @@ body:
     attributes:
       label: Würdest du es wieder nutzen? / Would you use it again?
       description: Freiwillig; eine kurze Begründung hilft. / Optional; a short reason helps.
+    validations:
+      required: false

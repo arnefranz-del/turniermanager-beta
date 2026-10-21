@@ -1,63 +1,87 @@
 # Fragen & Antworten / Questions & answers
 
-[Deutsch](../README.md) · [English](../README.en.md)
+[Deutsch](../README.md) · [English](../README.en.md) · [Hilfe](https://turniermanager-beta.pages.dev/de/help/) · [Help](https://turniermanager-beta.pages.dev/en/help/)
 
-## Ist die Beta schon verfügbar? / Is the beta available?
+Stand / Updated: 21. Oktober / October 2026. App: 0.9.0-beta.2.
 
-`0.9.0-beta.2` ist für macOS Universal und Windows x64 freigegeben. Pakete, SHA-256, geprüfte Systeme und Grenzen stehen im [Release](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2).
+## Was kostet diese Beta? / What does this beta cost?
 
-`0.9.0-beta.2` is available for macOS Universal and Windows x64. The exact packages, SHA-256, tested environments and limits are listed in the [release](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2).
+Du kannst diese Beta kostenlos privat oder gewerblich ausprobieren. Kein Abo und keine spätere Zahlungspflicht für diese Erprobung. Für künftige Versionen können andere Bedingungen gelten.
 
-## Darf ich damit gewerblich testen? / May I evaluate it commercially?
+You can try this beta for free for private or commercial use. No subscription and no later payment obligation for this evaluation. Future versions may have different terms.
 
-Ja. Die freiwillige Erprobung dieser Beta ist privat und gewerblich kostenlos erlaubt. Daraus entstehen keine späteren Zahlungspflichten und kein Anspruch auf künftige Versionen. Es gibt keine versteckte Verfallsuhr und keine Zahlungssperre mitten im Turnier. Siehe [Beta-Bedingungen](../BETA_TERMS.md).
+## Brauche ich ein Konto oder Internet? / Do I need an account or internet?
 
-Yes. Voluntary private and commercial evaluation of this beta is free. It creates no later payment obligation or entitlement to future versions. There is no hidden expiry timer or payment lock during a tournament. See the [beta terms](../BETA_TERMS.md).
+Für die App, die Uhr und die angeschlossene Spieleranzeige brauchst du weder Konto noch Internet. Download und Online-Feedback benötigen eine Verbindung. Ein GitHub-Konto ist nur für Meldungen auf GitHub nötig; per E-Mail geht es ohne.
 
-## Welche Turniere und Spieler verwaltet Lite? / What does Lite manage?
+You do not need either for the app, clock or connected player display. Downloads and online feedback need a connection. You only need GitHub for reports made there; email is an alternative.
 
-Reguläre NLHE-Turniere als anonyme Mengen: Entries, aktive Spieler, Seat Open und die im Format vorgesehenen Nachkäufe. Lite enthält keine Spielerprofile, Rezeption, Sitzplatzzuweisung oder aktives Tischbalancing. PKO, Mystery Bounty und Dealer’s Choice gehören nicht zum Angebot dieser Beta.
+## Ist das auch für Homegames geeignet? / Can I use it for a home game?
 
-Regular NLHE tournaments using anonymous quantities: entries, active players, Seat Open and the purchases allowed by the format. Lite does not include player profiles, reception, seating or active table balancing. PKO, Mystery Bounty and Dealer’s Choice are outside this beta’s offer.
+Ja, wenn du ein No-Limit-Hold’em-Turnier organisierst. Du bereitest die Regeln vor und behältst Spielerzahlen, Uhr und Preisgeld im Blick. Die App ist kein Online-Pokerspiel und ersetzt keine Teilnehmer- oder Sitzplatzverwaltung.
 
-## Woher kommt das Konzept? / Where did the concept come from?
+Yes, if you organise a No-Limit Hold’em tournament. Set the rules and follow player counts, the clock and prize pool. The app is not an online poker game and does not manage named participants or seats.
 
-Arne Franz ist seit über 15 Jahren im Live-Poker aktiv und bringt Erfahrung als Floorman mit. Diese Erfahrung bestimmt das Konzept, die Turnierabläufe und die Produktarchitektur. Die Software wird mit Unterstützung von KI umgesetzt.
+## Welche Turnierformate unterstützt Lite? / Which tournament formats are included?
 
-Arne Franz has more than 15 years of live-poker experience, including work as a floorman. That practice shapes the concept, tournament workflows and product architecture. AI assists the software implementation.
+Freezeout, Second Chance, Re-Entry und Rebuy mit passend eingestelltem Add-on. Bounties/PKO, Satellites und weitere Sonderformate sind in dieser Beta nicht enthalten.
 
-## Speichern oder endgültig beenden? / Save or finish permanently?
+Freezeout, Second Chance, Re-Entry and Rebuy with a suitable add-on. Bounties/PKO, satellites and other special formats are outside this beta.
 
-Für eine Unterbrechung musst du das Turnier nicht endgültig abschließen. Beende die App normal und öffne später den aktiven gespeicherten Stand. Prüfe dabei die Uhr. Endgültiges Abschließen beendet die Durchführung; sie erscheint danach nicht mehr als fortsetzbar. Vorlagen und bereits exportierte Backups werden dadurch nicht gelöscht.
+## Kann ich Spieler auf Tische setzen? / Does it manage seating?
 
-You do not need to finish permanently just to stop for a while. Quit normally and later open the active saved state. Review the clock. Permanent finishing ends that run; it is no longer offered as resumable. Templates and previously exported backups are not deleted by that action.
+Nein. Lite zählt Spieler und Turniereinstiege, führt aber keine Namenslisten und vergibt keine Sitzplätze. Tischverwaltung und Tischbalancing sind nicht enthalten.
 
-## Was bedeutet „Uhr nach Unterbrechung angehalten“? / Why is the clock held after an interruption?
+No. Lite counts players and entries, but does not keep named player lists, assign seats or balance tables.
 
-Die App konnte die Zeit während der Unterbrechung nicht sicher beobachten. Prüfe Restzeit und aktuelle Phase, korrigiere bei Bedarf und setze die Uhr danach fort. Die Meldung allein bedeutet nicht, dass die Systemzeit verändert wurde. Eine unklare Buchung erst über den angebotenen Prüf-/Wiederholungsweg klären; keine Hinweise oder Dateien löschen, um weiterzukommen.
+## Was passiert, wenn ich die App schließe? / What happens when I close the app?
 
-The app could not safely observe time during the interruption. Check remaining time and the current phase, correct them if needed, then resume. The message alone does not mean the system clock changed. Resolve an uncertain transaction through the offered review/retry path; do not delete warnings or files to continue.
+Dein laufendes Turnier bleibt gespeichert und kann später fortgesetzt werden. Prüfe dann die Uhr. „Turnier beenden …“ schließt es nach Bestätigung ab; danach wird es nicht mehr als laufendes Turnier angeboten.
 
-## Wo sind meine Daten? / Where is my data?
+Your current tournament stays saved so you can return later. Review the clock when you do. “Finish tournament” closes it after confirmation; it is then no longer offered as a game to resume.
 
-Vorlagen, Turnierstände und Sicherungen werden lokal verwaltet. Jeder Rechner hat seinen eigenen Stand; ein automatischer Sync ist nicht vorgesehen. Trage in freie Texte keine echten Teilnehmerdaten ein. Für Sicherungen und deren Aufbewahrung entscheidest du selbst.
+## Warum warnt mein Rechner beim Öffnen? / Why does my computer show a warning?
 
-Templates, tournament states and backups are managed locally. Each computer has its own state; automatic synchronization is not provided. Do not enter real participant data in free-text fields. You decide when to create and retain backups.
+Die Beta ist auf Windows unsigniert. Auf dem Mac ist sie ad hoc signiert, aber nicht mit einem Apple-Entwicklerzertifikat signiert und nicht notarisiert. Lies vor dem ersten Öffnen die Installationshilfe. Lass die Schutzfunktionen eingeschaltet und umgehe keine Schadsoftwarewarnung.
 
-## Werden Downloads oder Feedback gemessen? / Are downloads or feedback counted?
+The Windows beta is unsigned. The Mac beta is ad-hoc signed, but not Developer ID signed or notarized. Read the installation guide before opening it. Keep protection enabled and do not bypass malware warnings.
 
-GitHub zeigt öffentliche Downloadzähler pro Release-Datei. Diese Zähler sind keine Anzahl eindeutiger Personen, Installationen oder aktiver Nutzer. Mehrfachdownloads, Bots und eigene Prüfdownloads können enthalten sein. Öffentliche Issues sind freiwillige Rückmeldungen. Ein Issue allein belegt keine Turniernutzung. Die App führt dafür keine automatische Nutzungs- oder Crash-Telemetrie ein.
+## Warum fehlen Auszahlungen? / Why are payouts not showing?
 
-GitHub provides public download counts for each release asset. They do not count unique people, installations or active users. Repeat downloads, bots and the project’s own checks may be included. Public issues are voluntary feedback. An issue alone does not establish tournament use. The app adds no automatic usage or crash telemetry for these counts.
+Prüfe unter „Preisgeld & Deals“, ob eine gültige Regel und ein Bereich zur gezählten Zahl der Turniereinstiege gespeichert sind. Speichere eigene Änderungen. Passt ein gültiger Bereich, aktualisieren sich normale Auszahlungen automatisch.
 
-## Ist das Open Source? / Is this open source?
+Under “Prizes & deals”, check that a valid rule and a range matching the counted entries are saved. Save any edits you make. With a valid matching range, normal payouts update automatically.
 
-Der App-Quellcode bleibt privat. Dieses öffentliche Repository bietet Dokumentation und Feedback. Es gewährt keine Open-Source-Lizenz an der App. Tatsächlich enthaltene Drittsoftware behält ihre jeweiligen Rechte und Hinweise. Siehe [Beta-Bedingungen](../BETA_TERMS.md).
+## Wie melde ich einen Fehler ohne GitHub-Konto? / How do I report a problem without GitHub?
 
-The app source remains private. This public repository provides documentation and feedback; it does not grant an open-source license to the app. Included third-party software retains its own rights and notices. See the [beta terms](../BETA_TERMS.md).
+Schreibe Arne eine E-Mail. Unter „Feedback“ findest du die Adresse zum Öffnen oder Kopieren. In der App stehen die Links unter „Einstellungen → Programm“. Du sendest die Nachricht selbst aus deinem Mailprogramm.
 
-## Wie melde ich etwas? / How can I contact you?
+Email Arne. The Feedback page has the address to open or copy. In the app, use “Settings → Application”. You send the message yourself through your mail app.
 
-[Fehler / Bug](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=bug.yml) · [Feedback](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=feedback.yml) · [E-Mail](mailto:hybrid-larval-1l@icloud.com). Bitte nur neutrale Screenshots verwenden. Keine echten Teilnehmer-/Kundendaten, vollständigen Backups oder Zugangsdaten öffentlich hochladen. Sicherheitsprobleme gehören in den [privaten Kontaktweg](../SECURITY.md).
+## Warum sehe ich die Spieleranzeige nicht am TV? / Why is the player display not on my TV?
 
-Use a neutral screenshot. Do not post real participant/customer data, complete backups or credentials. Send security reports through the [private contact route](../SECURITY.md).
+Prüfe Kabel und Anzeigeeinstellungen. Erweitere den Desktop, öffne die Spieleranzeige und lege sie auf den zweiten Bildschirm. Teste die Lesbarkeit und Vollbildfunktion an deinem tatsächlichen Gerät.
+
+Check your cable and display settings. Extend the desktop, open the player display and move it to your second screen. Test readability and fullscreen on your actual device.
+
+## Bekomme ich Hilfe während meines Turniers? / Will I get help during my tournament?
+
+Arne liest Rückmeldungen und Fehlermeldungen. Es gibt aber keine zugesagte Veranstaltungsbetreuung oder garantierte Antwortzeit. Mach vor deinem ersten Einsatz einen Probelauf.
+
+Arne reads feedback and bug reports, but event-day support and response times are not guaranteed. Do a practice run before your first event.
+
+## Privat schreiben oder öffentlich melden? / Private email or public report?
+
+Privat und ohne GitHub-Konto: [E-Mail an Arne](mailto:hybrid-larval-1l@icloud.com). Das öffnet dein Mailprogramm; du sendest erst dort. Kein Mailprogramm eingerichtet? Die [Feedbackseite](https://turniermanager-beta.pages.dev/de/feedback/) zeigt die kopierbare Adresse. In der App: **Einstellungen → Programm**. Es werden keine Logs oder Backups automatisch angehängt.
+
+Private, no GitHub account: [Email Arne](mailto:hybrid-larval-1l@icloud.com). This opens your mail app; you send the message there. No mail app configured? The [feedback page](https://turniermanager-beta.pages.dev/en/feedback/) shows the address and a copy button. In the app: **Settings → Application**. No logs or backups are attached automatically.
+
+Öffentlich, GitHub-Konto nötig / Public, GitHub account required: [Fehler / Bug](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=bug.yml) · [Verbesserung / Improvement](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=feedback.yml). Ein Textfeld reicht für allgemeines Feedback; Version und Betriebssystem sind freiwillig. General feedback needs one text field; version and operating system are optional.
+
+Keine echten Teilnehmerdaten, vollständigen Backups oder Zugangsdaten veröffentlichen. Do not publish real participant data, full backups or credentials. [Sicherheitsprobleme privat melden / Report security issues privately](../SECURITY.md).
+
+## Kosten, Rechte und Daten / Terms, rights and data
+
+Die vollständigen [Beta-Bedingungen](../BETA_TERMS.md) gelten. Der App-Quellcode bleibt privat; das öffentliche Repo ist keine Open-Source-Freigabe. Rechte enthaltener Drittsoftware bleiben unberührt. Die App fügt keine Nutzungs- oder Crash-Telemetrie hinzu. GitHubs Downloadzähler sind keine Zahl eindeutiger Personen oder aktiver Nutzer; Mehrfachdownloads, Bots und eigene Prüfdownloads können enthalten sein.
+
+See the full [beta terms](../BETA_TERMS.md). The app source remains private; this repository does not grant an open-source license to the app. Included third-party software keeps its own rights. The app adds no usage or crash telemetry. GitHub download counts do not count unique people or active users; repeat downloads, bots and the project’s own checks may be included.

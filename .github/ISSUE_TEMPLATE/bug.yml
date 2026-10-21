@@ -5,25 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Dieses Issue ist öffentlich. Keine echten Teilnehmer-/Kundendaten, vollständigen Backups, Passwörter oder Tokens hochladen. Verwende synthetische Daten und neutrale Screenshots. Sicherheitsprobleme bitte privat an hybrid-larval-1l@icloud.com melden.
+        Öffentlich, GitHub-Konto nötig. Privat und ohne GitHub: https://turniermanager-beta.pages.dev/de/feedback/
+        Keine echten Teilnehmerdaten, vollständigen Backups, Passwörter oder Tokens hochladen. Sicherheitsprobleme bitte privat an hybrid-larval-1l@icloud.com.
 
-        This issue is public. Do not upload real participant/customer data, complete backups, passwords or tokens. Use synthetic data and neutral screenshots. Report security issues privately to hybrid-larval-1l@icloud.com.
-  - type: input
-    id: version
-    attributes:
-      label: Appversion / App version
-      description: Steht unter Über. / Shown under About.
-      placeholder: 0.9.0-beta.2
-    validations:
-      required: true
-  - type: input
-    id: platform
-    attributes:
-      label: Betriebssystem / Operating system
-      description: Bitte genaue OS-Version ergänzen. / Please include the exact OS version.
-      placeholder: macOS … / Windows …
-    validations:
-      required: true
+        Public, GitHub account required. Private feedback without GitHub: https://turniermanager-beta.pages.dev/en/feedback/
+        Do not upload real participant data, full backups, passwords or tokens. Report security issues privately to hybrid-larval-1l@icloud.com.
   - type: textarea
     id: problem
     attributes:
@@ -39,12 +25,23 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: Schritte zum Nachstellen / Steps to reproduce
-      description: Optional. Kurze Schritte und neutrale Screenshots helfen. / Optional. Short steps and neutral screenshots help.
-  - type: checkboxes
-    id: privacy
+      label: Schritte oder Screenshot, freiwillig / Steps or screenshot, optional
+      description: Kurze Schritte helfen. Vor Screenshots Teilnehmer- und Kontodaten ausblenden. Keine vollständigen Backups anhängen. / Short steps help. Hide participant and account data in screenshots. Do not attach full backups.
+    validations:
+      required: false
+  - type: input
+    id: version
     attributes:
-      label: Vor dem Absenden / Before submitting
-      options:
-        - label: Ich habe keine echten Teilnehmerdaten, vollständigen Backups oder Zugangsdaten beigefügt. / I have not included real participant data, complete backups or credentials.
-          required: true
+      label: Appversion, falls bekannt / App version, if known
+      description: Freiwillig. Einstellungen → Programm / Optional. Settings → Application.
+      placeholder: 0.9.0-beta.2
+    validations:
+      required: false
+  - type: input
+    id: platform
+    attributes:
+      label: Betriebssystem, falls bekannt / Operating system, if known
+      description: Freiwillig. Windows oder Mac genügt; keine genaue Buildnummer nötig. / Optional. Windows or Mac is enough; no exact build number needed.
+      placeholder: Windows / macOS
+    validations:
+      required: false

@@ -1,59 +1,125 @@
-# Installation & first practice run
+# Installation & your first tournament
 
-[Home](../README.en.md) · [Deutsch](INSTALLATION.de.md)
+[Home](../README.en.md) · [Deutsch](INSTALLATION.de.md) · [Website help](https://turniermanager-beta.pages.dev/en/help/)
 
-**Beta 0.9.0-beta.2 is available for macOS Universal and Windows x64.** The Mac package was checked in an ARM64 CI VM (Darwin 25.6.0) and on a physical Intel iMac running macOS 14.7. Windows qualification used a Windows Server 2025 Datacenter VM (10.0.26100, x64). See the [release manifest](../release-manifest.json) for exact files, checksums and evidence limits.
+For free beta 0.9.0-beta.2 on Windows x64 and Mac (Apple Silicon and Intel). Guide updated on 21 October 2026; the app is unchanged.
 
-## Windows x64
+<a name="install"></a>
 
-1. Download `Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe` from the official release. Compare the full filename, size and all 64 characters of its SHA-256 checksum.
-2. Quit any running instance normally, then start Setup. The beta uses a per-user installer rather than a system-wide installation.
-3. Launch the installed app through its normal program entry. Check the saved state and player display before the first tournament.
+## Install the app
 
-The installer and app are unsigned. Windows may show an unknown publisher or a SmartScreen warning. Check the source and checksum before deciding whether to run the package. Keep Windows protection enabled. An actual malware warning is not an installation step; stop and report it.
+### Mac
 
-The native functional test ran in a Windows Server 2025 Datacenter VM, not on a physical Windows 10/11 computer. Captures were limited to 1024 pixels wide, with the taskbar hiding the bottom announcement row. They do not establish full short-ticker visibility or native movement.
+1. Get the Mac file from [Downloads](https://turniermanager-beta.pages.dev/en/#downloads) and open the DMG.
+1. Copy Turniermanager to Applications. Eject the DMG, then launch the copied app.
+1. This beta is ad-hoc signed, but not Developer ID signed or notarized. If macOS warns about an unidentified developer, check where the file came from and read [Apple’s guide](https://support.apple.com/en-us/102445). After an opening attempt, macOS may offer System Settings → Privacy & Security → Open Anyway, where you can deliberately decide whether to open it.
 
-## macOS
+### Windows x64
 
-1. Download the DMG from the [official releases](https://github.com/arnefranz-del/turniermanager-beta/releases). Compare its version, filename and complete SHA-256 checksum with the release.
-2. Open the DMG and copy Turniermanager to Applications. Eject the DMG and launch the copied app.
-3. The Mac beta package is ad-hoc signed and not notarized. If macOS blocks it because the developer is not verified, check the source and checksum. Use only the normal System Settings → Privacy & Security → Open Anyway option, if macOS offers it. Follow [Apple’s instructions](https://support.apple.com/en-us/102445).
+1. Get the Windows file from [Downloads](https://turniermanager-beta.pages.dev/en/#downloads).
+1. Run Setup under your user account and complete the installation.
+1. Launch the installed app from its program entry. The package is unsigned, so Windows may show an unknown publisher or a security warning.
 
-Keep system protection enabled. Do not use this route to bypass a malware or damaged-file warning. Download the file again from the official release and report the problem. This beta does not require removal of quarantine attributes.
+If you see a warning, check the file’s source before deciding whether to open it. Keep antivirus protection and SmartScreen enabled. Do not bypass a malware or damaged-file warning: stop, download a fresh copy from the official release and report the problem. [Microsoft explains the Windows protection features](https://support.microsoft.com/en-us/windows/security/windows-security/app-browser-control-in-the-windows-security-app).
 
-A universal package alone does not establish that it runs successfully on every Intel or Apple Silicon configuration. Check the devices and operating systems actually tested in the release notes.
+<details>
+<summary>Optional: check the downloaded file</summary>
 
-## First practice run
+“Technical details and checksum” beside each download shows its filename, size, tested systems and SHA-256. If you use these tools, compare the checksum in macOS Terminal with `shasum -a 256 FILE.dmg` or in Windows PowerShell with `Get-FileHash FILE.exe -Algorithm SHA256`. Replace the file path and compare all 64 characters. A matching checksum confirms identical file contents; it does not guarantee that a file is safe.
 
-1. Open a template and check its name, blind structure, breaks and relevant purchase options. Save your own template if you want to reuse the settings.
-2. Load the template as a tournament. Add a small number of anonymous players as a quantity.
-3. Start the clock. Try pause/resume, a time correction, Seat Open and reversal of a specific transaction. Check player counts, chips and the prize pool after each step.
-4. Connect the second screen, open the player display and choose the intended screen. Check readability and fullscreen on the actual device.
-5. Create a `.tmbak` backup and keep it outside the app’s data folder. Test restoration in a separate test instance before relying on it for an event.
+</details>
 
-Quitting normally and finishing permanently are different actions. An active saved tournament can be continued after restarting. “Finish tournament permanently” requires deliberate confirmation and ends that run; it is then no longer offered as resumable. Templates and external backups remain. The clock may be held for review after an interruption. Check the tournament time, correct it if needed, then resume.
+### Update or uninstall later
 
-## Update & remove
+Before updating, create a backup, quit normally and install the new official version. Check your saved tournament and player display afterwards. Updates are not installed automatically.
 
-Before updating, create a backup and quit the app normally. Install the approved new version, then check the template, saved state and player display. This beta does not synchronize computers or install updates automatically.
+On Mac, remove the app from Applications. On Windows, use the normal app management settings. Local user data may remain. Uninstalling is neither a backup nor a complete data wipe.
 
-On macOS, remove the app from Applications. Local user data is stored separately. Removing the app is neither a backup nor a complete data wipe.
+<a name="first"></a>
 
-On Windows, uninstall through the normal app management settings. The isolated native uninstall test confirmed that local user data was retained. Make a backup before updating or uninstalling anyway; uninstalling is not a complete data wipe.
+## Your first tournament
 
-Optional checksum comparison in Windows PowerShell:
+1. Choose a template on the home screen and select “Edit”, or use “Create template” to make your own.
+1. Check the format, starting stack, buy-in, blinds and breaks. Save your template for another night.
+1. Choose “Load tournament”. Use “Add players” to enter the player count; you do not enter participant names.
+1. Check the payout rule and the matching entry range under “Prizes & deals”. Save any edits with “Apply changes”.
+1. Open the player display on the connected screen. See [Player display](#display) for the next steps.
+1. Choose “Start clock”. Regular levels and scheduled breaks advance automatically. “Pause clock” deliberately holds it; “Resume clock” lets it continue.
+1. Use “Seat open −1” to record an elimination. “Undo” reverses an eligible action you select. Use the relevant control for rebuys or other entries allowed by the format.
 
-```powershell
-Get-FileHash -Algorithm SHA256 "C:\path\Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe"
-```
+A template keeps the rules for your next game. A new tournament starts with empty counts and a fresh clock. To continue a game already in progress, open its saved state instead. Try the steps with example data before your first event.
 
-Optional checksum comparison in macOS Terminal, using the actual downloaded file path:
+Entries count initial player entries and re-entries where applicable. They are different from the number of players still in the tournament. An elimination does not remove entries already counted.
 
-```sh
-shasum -a 256 /path/to/the/downloaded/file.dmg
-```
+<a name="display"></a>
 
-Compare all 64 characters with the release. A checksum detects different bytes; you also need a trustworthy download source.
+## Put the player display on your second screen
 
-Problems: [report a bug](https://github.com/arnefranz-del/turniermanager-beta/issues/new?template=bug.yml) or [email Arne](mailto:hybrid-larval-1l@icloud.com). Do not attach complete backups publicly.
+1. Connect your TV or monitor and choose an extended desktop in your computer’s display settings.
+1. Choose “Open player display” in the app.
+1. Under “Player display”, select the intended screen and use fullscreen. You can also move the display window to your second screen.
+1. Check the clock, blinds, breaks and payouts on the actual device.
+
+A manual announcement overrides messages from the current phase, break or template. Choose “Remove manual announcement” to return to those messages. Your own announcements are not translated when you change the app language.
+
+The app does not remotely control the TV or HDMI connection. If the screen is missing, check the cable and your computer’s display settings first.
+
+<a name="payouts"></a>
+
+## How payouts work
+
+When a valid payout rule is saved and an entry range matches the counted entries, normal payouts update automatically. You do not need to approve every new display.
+
+If you edit the rule under “Prizes & deals”, save the edit with “Apply changes”. Add a range if none fits. “Seat open −1” reduces active players, not entries already counted.
+
+Rebuys and other permitted entries can increase the prize pool. You can choose whether a particular entry type also counts towards selecting the payout range. Fees and prize money are kept separate.
+
+An ICM calculation or displayed deal proposal is not an agreement. Accepting a deal is a separate, deliberate action. Agreed fixed amounts and accepted deals have their own safeguards and are distinct from normal automatic payouts.
+
+<a name="backup"></a>
+
+## Save, close and back up
+
+### Close the app and return later
+
+Closing the app normally keeps your tournament saved so you can return to it later. Review the clock when you reopen: it may be held after an interruption. Check the remaining time and phase, correct them if needed, then resume.
+
+“Finish tournament” is a separate action. Once confirmed, that tournament is no longer offered as a game to resume. This does not mean every archive or external backup has been securely deleted.
+
+### Create a separate backup
+
+1. Open “Settings → Backup”, or the existing backup entry in the menu.
+1. Choose “Create backup”.
+1. Save the `.tmbak` file outside the app’s data folder, for example on a USB drive.
+
+Automatic saving helps on this computer. A separate backup file helps if the computer or its data fails. The file is not encrypted; store it accordingly and do not publish it.
+
+### Restore a backup
+
+1. Back up the state currently on your computer first.
+1. Open “Backup” and choose “Restore backup”. Open the intended `.tmbak` file.
+1. Review its date, version and contents. Confirming restoration replaces local data; it does not merge two sets of tournaments.
+1. Check your templates, saved tournaments, player counts, clock, payouts and display settings afterwards.
+
+Each computer has its own data. A backup file does not sync devices. If saving or restoration fails, preserve existing files and report the exact error. Do not delete files by guesswork.
+
+<a name="feedback"></a>
+
+## Send feedback from the app
+
+Open “Settings → Application”. “Give feedback” opens the public GitHub feedback form; “Report a bug” opens the bug form. Both need a GitHub account. The app version and platform appear in the visible form for you to check.
+
+The email address underneath offers an alternative without GitHub. Clicking it opens your mail app. You write and send the message there. The app does not automatically attach or send logs, participant data or backups.
+
+[Find both feedback options and the copyable address here.](https://turniermanager-beta.pages.dev/en/feedback/)
+
+## Tested systems and limits
+
+<details>
+<summary>Technical test evidence</summary>
+
+Mac: a physical Intel iMac running macOS 14.7 and an ARM64 CI VM running Darwin 25.6.0. Windows: a Windows Server 2025 Datacenter VM (10.0.26100, x64). This does not qualify physical Windows hardware, a MacBook installation, every OS version or physical HDMI. The ARM VM constrained window sizes. Windows captures are 1024 pixels wide; the taskbar hides the bottom announcement row. The captures do not prove native short-ticker movement.
+
+[Exact filenames, sizes and SHA-256](../release-manifest.json) · [Mac visual evidence](../checks/human-visual-acceptance.json) · [Windows visual evidence](../checks/windows-human-visual-acceptance.json). These are test environments, not inferred minimum requirements.
+
+</details>
