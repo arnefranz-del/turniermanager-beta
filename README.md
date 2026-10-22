@@ -22,7 +22,7 @@ Echte Lite-Oberfläche, am 21. Oktober 2026 isoliert mit deutschen Beispieldaten
 
 ## Selbst ausprobieren
 
-[Arbeitsplatz ausprobieren](https://turniermanager-beta.pages.dev/de/#demo)
+[Turniermanager-Beta ausprobieren](https://turniermanager-beta.pages.dev/de/#demo)
 
 Die Website bietet eine begrenzte interaktive Vorschau mit Beispieldaten. Dort kannst du Uhr, Spielerzahlen, Rückgängig, kommende Blinds/Pausen und Prozentstaffeln ausprobieren. Alle Tabs zeigen denselben lokalen Demostand. Änderungen gelten nur für diese Vorschau. Beim Neuladen startet die Demo von vorn. GitHub zeigt diese README statisch — die Demo öffnet sich auf der Website.
 

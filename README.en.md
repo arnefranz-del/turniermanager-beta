@@ -22,7 +22,7 @@ Original beta captures from 20 October 2026, using example data. The two files a
 
 ## Try the controls
 
-[Try the workspace](https://turniermanager-beta.pages.dev/en/#demo)
+[Try Turniermanager Beta](https://turniermanager-beta.pages.dev/en/#demo)
 
 The website offers a limited interactive preview with example data. Try the clock, player counts, targeted Undo, future blinds/breaks and percentage payout ranges. All tabs share the same local demo state. Changes apply only to this preview. Reloading resets the demo. GitHub displays this README statically — the demo opens on the website.
 
