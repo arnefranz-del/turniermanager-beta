@@ -1,6 +1,6 @@
 # Turniermanager Lite
 
-**Set up and run poker tournaments. For Windows and Mac.** Keep track of the clock, player count and prize pool while players follow the game on a TV or second screen.
+**Prepare your poker tournament. Keep play organised.** Blinds, player counts, rebuys and prize money in one place. For Windows and Mac, with a separate player display.
 
 [Website](https://turniermanager-beta.pages.dev/en/) · [Interactive demo](https://turniermanager-beta.pages.dev/en/#demo) · [Deutsch](README.md)
 
@@ -22,9 +22,9 @@ Original beta captures from 20 October 2026, using example data. The two files a
 
 ## Try the controls
 
-[Try Turniermanager Beta](https://turniermanager-beta.pages.dev/en/#demo)
+[Try it in your browser](https://turniermanager-beta.pages.dev/en/#demo)
 
-The website offers a limited interactive preview with example data. Try the clock, player counts, targeted Undo, future blinds/breaks and percentage payout ranges. All tabs share the same local demo state. Changes apply only to this preview. Reloading resets the demo. GitHub displays this README statically — the demo opens on the website.
+Start the clock, add players and rebuys, edit blinds and breaks, and check the payouts. The demo opens on the website with example data. Your input stays in the browser; reloading resets the demo.
 
 ## For your tournament night
 
@@ -71,4 +71,4 @@ Player profiles, check-in, seating, table balancing, PKO/bounties, satellites, r
 
 Provider and contact: Turniermanager · Arne Franz, Rita-Maiburg-Straße 40, 70794 Filderstadt. [Email](mailto:hybrid-larval-1l@icloud.com).
 
-Website/documentation updated: 21 October 2026. App, installers and release tag unchanged. The tag identifies public documentation and the manifest, not app source.
+Website/documentation updated: 22 October 2026. App, installers and release tag unchanged. The tag identifies public documentation and the manifest, not app source.

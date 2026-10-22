@@ -1,6 +1,6 @@
 # Turniermanager Lite
 
-**Pokerturniere vorbereiten und leiten. Für Windows und Mac.** Uhr, Spielerzahl, Preisgeld und eine Spieleranzeige für den Fernseher oder zweiten Bildschirm.
+**Pokerturniere vorbereiten. Einfach und übersichtlich leiten.** Blindstruktur, Spielerzahlen, Nachkäufe und Preisgeld an einem Ort. Für Windows und Mac, mit Spieleranzeige für den zweiten Bildschirm.
 
 [Website](https://turniermanager-beta.pages.dev/de/) · [Interaktive Demo](https://turniermanager-beta.pages.dev/de/#demo) · [English](README.en.md)
 
@@ -22,9 +22,9 @@ Echte Lite-Oberfläche, am 21. Oktober 2026 isoliert mit deutschen Beispieldaten
 
 ## Selbst ausprobieren
 
-[Turniermanager-Beta ausprobieren](https://turniermanager-beta.pages.dev/de/#demo)
+[Im Browser ausprobieren](https://turniermanager-beta.pages.dev/de/#demo)
 
-Die Website bietet eine begrenzte interaktive Vorschau mit Beispieldaten. Dort kannst du Uhr, Spielerzahlen, Rückgängig, kommende Blinds/Pausen und Prozentstaffeln ausprobieren. Alle Tabs zeigen denselben lokalen Demostand. Änderungen gelten nur für diese Vorschau. Beim Neuladen startet die Demo von vorn. GitHub zeigt diese README statisch — die Demo öffnet sich auf der Website.
+Starte die Uhr, erfasse Spieler und Nachkäufe, ändere Blinds und Pausen und prüfe die Auszahlungen. Die Demo öffnet sich auf der Website und verwendet Beispieldaten. Deine Eingaben bleiben im Browser; Neuladen setzt die Demo zurück.
 
 ## Für deinen Pokerabend
 
@@ -71,4 +71,4 @@ Spielerprofile, Check-in, Seating, Tischbalancing, PKO/Bounty, Satellites, Remot
 
 Anbieter und Kontakt: Turniermanager · Arne Franz, Rita-Maiburg-Straße 40, 70794 Filderstadt. [E-Mail](mailto:hybrid-larval-1l@icloud.com).
 
-Website-/Dokumentationsstand: 21. Oktober 2026. App, Installer und Release-Tag unverändert. Der Release-Tag bezeichnet den öffentlichen Dokumentations- und Manifeststand, keinen App-Source-Tag.
+Website-/Dokumentationsstand: 22. Oktober 2026. App, Installer und Release-Tag unverändert. Der Release-Tag bezeichnet den öffentlichen Dokumentations- und Manifeststand, keinen App-Source-Tag.
