@@ -2,7 +2,7 @@
 
 [Deutsch](../README.md) · [English](../README.en.md) · [Hilfe](https://turniermanager-beta.pages.dev/de/help/) · [Help](https://turniermanager-beta.pages.dev/en/help/)
 
-Stand / Updated: 21. Oktober / October 2026. App: 0.9.0-beta.2.
+Stand / Updated: 22. Oktober / October 2026. App: 0.9.0-beta.2.
 
 ## Was kostet diese Beta? / What does this beta cost?
 
@@ -88,6 +88,24 @@ See the full [beta terms](../BETA_TERMS.md). The app source remains private; thi
 
 ## Kann ich die Bedienung im Browser ausprobieren? / Can I try it in a browser?
 
-Ja, als begrenzte [interaktive Vorschau mit Beispieldaten](https://turniermanager-beta.pages.dev/de/#demo). Sie speichert kein echtes Turnier und überträgt keine Demoeingaben. Die vollständige Turnierverwaltung läuft in der Desktop-App.
+Ja, als begrenzte [interaktive Vorschau mit Beispieldaten](https://turniermanager-beta.pages.dev/de/#demo-open). Sie speichert kein echtes Turnier und überträgt keine Demoeingaben. Die vollständige Turnierverwaltung läuft in der Desktop-App.
 
-Yes, in a limited [interactive preview with example data](https://turniermanager-beta.pages.dev/en/#demo). It does not save a real tournament or transmit demo input. Use the desktop app to run a real tournament.
+Yes, in a limited [interactive preview with example data](https://turniermanager-beta.pages.dev/en/#demo-open). It does not save a real tournament or transmit demo input. Use the desktop app to run a real tournament.
+
+## Ist das bereits die fertige Pro-Version? / Is this already the finished Pro version?
+
+Nein. Der Download enthält die öffentliche Beta mit dem hier beschriebenen Funktionsumfang. Der Pro-Ausblick zeigt mögliche nächste Schritte. Ob und wie diese umgesetzt werden, hängt auch vom Interesse und den Rückmeldungen zur Beta ab.
+
+No. The download is the public beta with the features described here. The Pro roadmap shows possible next steps. Whether and how they are built also depends on interest in the beta and feedback from people who try it.
+
+## Sind Deutsch, Englisch und verschiedene Farben erst für Pro geplant? / Are German, English and different colours reserved for Pro?
+
+Nein. Deutsch und Englisch, Hell- und Dunkelmodus am Arbeitsplatz sowie Dunkelgrün/Gold und Nachtblau für die Spieleranzeige sind bereits vorhanden. Für Pro sind weitergehende Anpassungen vorgesehen, etwa eigene Logos, zusätzliche Layouts und mehr Gestaltungsmöglichkeiten.
+
+No. German and English, light and dark workspace modes, and dark green/gold or navy player displays are available now. Pro is intended to offer further customisation, such as logos, additional layouts and more appearance settings.
+
+## Wie kann ich die Entwicklung beeinflussen? / How can I help shape development?
+
+Probiere Turniermanager mit Beispieldaten aus und teile mit, was gut funktioniert, was unklar bleibt und was dir im Turnierbetrieb fehlt. Rückmeldungen sind per E-Mail oder auf GitHub möglich.
+
+Try Turniermanager with example data and share what works, what is unclear and what you need when running a tournament. You can send feedback by email or on GitHub.
