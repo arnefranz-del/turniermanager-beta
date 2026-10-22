@@ -1,8 +1,10 @@
-# Turniermanager Lite
+# Turniermanager
 
-**Prepare your poker tournament. Keep play organised.** Blinds, player counts, rebuys and prize money in one place. For Windows and Mac, with a separate player display.
+**Tournament management that understands poker.**
 
-[Website](https://turniermanager-beta.pages.dev/en/) · [Interactive demo](https://turniermanager-beta.pages.dev/en/#demo) · [Deutsch](README.md)
+Poker tournament management for Windows and Mac, built from professional floor experience. The public beta brings together the clock, player counts, rebuys and re-entries, payouts and a separate player display.
+
+[Website](https://turniermanager-beta.pages.dev/en/) · [Interactive demo](https://turniermanager-beta.pages.dev/en/#demo-open) · [Deutsch](README.md)
 
 [Download for Mac — Apple Silicon and Intel](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · [Download for Windows — x64](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe)
 
@@ -22,19 +24,34 @@ Original beta captures from 20 October 2026, using example data. The two files a
 
 ## Try the controls
 
-[Try it in your browser](https://turniermanager-beta.pages.dev/en/#demo)
+[Try it in your browser](https://turniermanager-beta.pages.dev/en/#demo-open)
 
-Start the clock, add players and rebuys, edit blinds and breaks, and check the payouts. The demo opens on the website with example data. Your input stays in the browser; reloading resets the demo.
+Start the clock, add players and book Second Chances, edit blinds and breaks, and check the payouts. The demo opens on the website with example data. Your input stays in the browser; reloading resets the demo.
 
-## For your tournament night
+## Available now
 
-- Templates for Freezeout, Second Chance, Re-Entry or Rebuy, with an add-on where appropriate.
-- Add players, record eliminations and track rebuys without keeping participant names.
-- Control the clock, levels and breaks; show the tournament on a separate screen.
-- Let normal payouts update automatically from a valid saved rule.
-- Work locally without an app account or internet connection, keep backups and return to active tournaments later.
+- Freezeout, Second Chance, Re-Entry and Rebuy, with an add-on where appropriate.
+- Templates, blind structures, automatic level changes and scheduled breaks.
+- Player counts, the entries and rebuys allowed by the format, and payout schedules.
+- A separate player display with custom announcements.
+- German and English, light and dark workspace modes, and dark green/gold or navy player displays.
+- Local saving, resuming tournaments and separate backups.
 
 First practice run: edit and save a template, load the tournament, add players, check payouts and the player display, then start the clock. [Full help](https://turniermanager-beta.pages.dev/en/help/) · [Questions & answers](docs/FAQ.md).
+
+## Pro roadmap
+
+**Not included yet.**
+
+- More tournament formats
+- Players and seating
+- Progressive knockouts
+- Your event’s look
+- A workspace that fits the job
+
+Whether Pro is developed, and what it includes, depends on beta usage and feedback. Features, priorities and release dates are not committed.
+
+[Pro roadmap on the website](https://turniermanager-beta.pages.dev/en/#pro)
 
 ## Feedback
 

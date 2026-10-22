@@ -1,8 +1,10 @@
-# Turniermanager Lite
+# Turniermanager
 
-**Pokerturniere vorbereiten. Einfach und übersichtlich leiten.** Blindstruktur, Spielerzahlen, Nachkäufe und Preisgeld an einem Ort. Für Windows und Mac, mit Spieleranzeige für den zweiten Bildschirm.
+**Turnierverwaltung, die Poker versteht.**
 
-[Website](https://turniermanager-beta.pages.dev/de/) · [Interaktive Demo](https://turniermanager-beta.pages.dev/de/#demo) · [English](README.en.md)
+Poker-Turnierverwaltung für Windows und Mac, aus professioneller Floor-Praxis entwickelt. Die öffentliche Beta verbindet Turnieruhr, Spielerzählung, Nachkäufe, Auszahlungen und eine separate Spieleranzeige.
+
+[Website](https://turniermanager-beta.pages.dev/de/) · [Interaktive Demo](https://turniermanager-beta.pages.dev/de/#demo-open) · [English](README.en.md)
 
 [Für Mac herunterladen — Apple Silicon und Intel](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · [Für Windows herunterladen — x64](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe)
 
@@ -22,19 +24,34 @@ Echte Lite-Oberfläche, am 21. Oktober 2026 isoliert mit deutschen Beispieldaten
 
 ## Selbst ausprobieren
 
-[Im Browser ausprobieren](https://turniermanager-beta.pages.dev/de/#demo)
+[Im Browser ausprobieren](https://turniermanager-beta.pages.dev/de/#demo-open)
 
-Starte die Uhr, erfasse Spieler und Nachkäufe, ändere Blinds und Pausen und prüfe die Auszahlungen. Die Demo öffnet sich auf der Website und verwendet Beispieldaten. Deine Eingaben bleiben im Browser; Neuladen setzt die Demo zurück.
+Starte die Uhr, füge Spieler hinzu und buche Second Chances, ändere Blinds und Pausen und prüfe die Auszahlungen. Die Demo öffnet sich auf der Website und verwendet Beispieldaten. Deine Eingaben bleiben im Browser; Neuladen setzt die Demo zurück.
 
-## Für deinen Pokerabend
+## Heute verfügbar
 
-- Vorlagen für Freezeout, Second Chance, Re-Entry oder Rebuy mit passendem Add-on.
-- Spieler hinzufügen, ein Ausscheiden erfassen und Nachkäufe eintragen, ohne Teilnehmernamen.
-- Uhr, Level und Pausen steuern; Spieler sehen den Stand auf einem zweiten Bildschirm.
-- Normale Auszahlungen automatisch anhand einer gültigen gespeicherten Regel aktualisieren.
-- Lokal ohne Konto und Internet arbeiten, Sicherungen erstellen und aktive Turniere später fortsetzen.
+- Freezeout, Second Chance, Re-Entry und Rebuy mit passendem Add-on.
+- Vorlagen, Blindstruktur, automatische Levelwechsel und geplante Pausen.
+- Spielerzählung, passende Nachkäufe und Auszahlungsstaffeln.
+- Separate Spieleranzeige mit eigenen Ansagen.
+- Deutsch und Englisch, Hell-/Dunkelmodus am Arbeitsplatz sowie Dunkelgrün/Gold und Nachtblau für die Spieleranzeige.
+- Lokales Speichern, Fortsetzen und zusätzliche Sicherungen.
 
 Erster Probelauf: Vorlage bearbeiten und speichern, als Turnier laden, Spielerzahl eintragen, Auszahlungen und Spieleranzeige prüfen, Uhr starten. [Vollständige Hilfe](https://turniermanager-beta.pages.dev/de/help/) · [Fragen & Antworten](docs/FAQ.md).
+
+## Pro-Ausblick
+
+**Noch nicht enthalten.**
+
+- Mehr Turnierformate
+- Spieler und Sitzplätze
+- Progressive Knockouts
+- Eigener Auftritt
+- Anpassbarer Arbeitsplatz
+
+Ob und in welchem Umfang Pro entsteht, hängt von der Nutzung und dem Feedback zur Beta ab. Funktionen, Reihenfolge und Veröffentlichungstermine stehen noch nicht fest.
+
+[Pro-Ausblick auf der Website](https://turniermanager-beta.pages.dev/de/#pro)
 
 ## Feedback
 
