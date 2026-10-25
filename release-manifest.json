@@ -1,10 +1,12 @@
 {
   "schemaVersion": 2,
   "channel": "public-beta",
-  "version": "0.9.0-beta.2",
+  "version": "0.9.0-beta.4.3",
+  "releaseDate": "2026-10-25",
   "sourceVisibility": "private",
-  "sourceCommit": "a413cc3b578c9d6f35f6bd92c37e364b06832956",
-  "sourceCommitRole": "Frozen delivered-application-code baseline; actual package build commits are recorded per platform",
+  "sourceCommit": "5aed85a1670e45224c5c1ecb486622999d232607",
+  "sourceTree": "8945a98c301e8bac2400e0699698414e51dd41d7",
+  "sourceCommitRole": "Exact clean source used to build both unchanged delivered HUMAN packages; documentation and later integration commits are distinct.",
   "license": {
     "id": "LicenseRef-Turniermanager-Beta",
     "ownerApproved": true,
@@ -16,89 +18,98 @@
     {
       "platform": "macos",
       "architecture": "universal",
-      "file": "Turniermanager-0.9.0-beta.2-macos-universal.dmg",
-      "bytes": 231487943,
-      "sha256": "f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9",
+      "file": "Turniermanager-0.9.0-beta.4.3-macos-universal.dmg",
+      "bytes": 232740252,
+      "sha256": "46962f42fa4a6610731dab090e5c2c30f4a3c77b17a69063946b4891352d16c6",
       "status": "approved",
       "signing": "ad-hoc-not-notarized",
-      "buildSourceCommit": "63aeea8d2a928e97cb3d868865b51b4913f0463f",
-      "testedEnvironment": "macOS 14.7 / x86_64 / physical Intel iMac; Darwin 25.6.0 / arm64 / CI VM",
+      "buildSourceCommit": "5aed85a1670e45224c5c1ecb486622999d232607",
+      "testedEnvironment": "macOS 14.7 / x86_64 / physical Intel iMac",
       "checks": [
         {
-          "file": "macos-native-acceptance.json",
-          "sha256": "f9d366617fed8270aa843f43cd2f83093f8b00434cfb1b9aefcfa714deac1923",
-          "result": "PASS"
+          "file": "macos-beta4-3.json",
+          "sha256": "7cfdcc69ebd56a501e4265dd12fcbf1506298bea5cd6ef4c4f806c5953178d20",
+          "result": "PASS",
+          "version": "0.9.0-beta.4.3",
+          "scope": "Focused installed-app Bubble rank, amount retention and normal quit"
         },
         {
-          "file": "macos-physical-acceptance.json",
-          "sha256": "d17ec870141b82bbc84fca39d23c2ba8e880d7c7f502b7b54837310fc737d62b",
-          "result": "PASS"
+          "file": "packages-beta4-3.json",
+          "sha256": "64d3f9ab6a41927fe2b90c22d3d6eb950e8cf9e15ef9f55f43a5a433fa9bab2d",
+          "result": "PASS",
+          "version": "0.9.0-beta.4.3",
+          "scope": "Exact artifact/source identity and runtime package structure"
         },
         {
-          "file": "human-code-identity.json",
-          "sha256": "b34f45558c8a58d757d034ab49280919587f3a7ae163b06c8b58f0e21b094487",
-          "result": "PASS"
-        },
-        {
-          "file": "human-visual-acceptance.json",
-          "sha256": "36c0c37d8e208e1326013a7e935fa9425d82d0888a19ca47fb97529485f4bcd7",
-          "result": "PASS"
+          "file": "software-beta4-3.json",
+          "sha256": "1a30866e290bd59df3572b82649959aaf720b4ce3d503a0e679c90dd82f11041",
+          "result": "PASS",
+          "version": "0.9.0-beta.4.3",
+          "scope": "Software tests, typecheck/build and built renderer"
         }
       ],
       "limits": [
-        "No notarization or Developer ID signature",
-        "No physical MacBook or consumer HDMI device acceptance",
-        "ARM VM window sizes were constrained; wide/detail images retain the explicit code-identical baseline capture identity",
-        "Short-ticker native movement not proven by the retained stills"
+        "English player-window locale was not natively checked.",
+        "No new native restart, audio, recovery, running-clock or uninstall test with 4.3.",
+        "No Apple Silicon, MacBook or physical HDMI acceptance.",
+        "Ad-hoc signature only; no Developer ID or notarization."
       ]
     },
     {
       "platform": "windows",
       "architecture": "x64",
-      "file": "Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe",
-      "bytes": 111786939,
-      "sha256": "e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332",
+      "file": "Turniermanager-0.9.0-beta.4.3-windows-x64-Setup.exe",
+      "bytes": 112932150,
+      "sha256": "94a4d97cdc015095bc8b78ff98f87c74b12730c2030db2b9bdb34ec4bf9f1266",
       "status": "approved",
       "signing": "unsigned",
-      "buildSourceCommit": "fe298daf7ca3276a89b8145f6a80a85a9aabcc91",
-      "testedEnvironment": "win32 / 10.0.26100 / Windows Server 2025 Datacenter / x64",
+      "buildSourceCommit": "5aed85a1670e45224c5c1ecb486622999d232607",
+      "testedEnvironment": "Windows 10 Home / 19045 / x64 / isolated VirtualBox VM",
       "checks": [
         {
-          "file": "windows-native-acceptance.json",
-          "sha256": "d08017124607746284cc172b9814fc924639ee40fb3152d94f4264a3253de213",
-          "result": "PASS"
+          "file": "windows-beta4-3.json",
+          "sha256": "b84ad89e8dbcff232817992eaa10df5db5b0e49248e317ff55e12dd5dc8d418c",
+          "result": "PASS",
+          "version": "0.9.0-beta.4.3",
+          "scope": "Focused installed-app Bubble rank, amount retention and normal quit"
         },
         {
-          "file": "windows-human-code-identity.json",
-          "sha256": "bd368a020eb914394f8bb41dbb778f2e6d293658788db2c7448ec1feaa491321",
-          "result": "PASS"
+          "file": "packages-beta4-3.json",
+          "sha256": "64d3f9ab6a41927fe2b90c22d3d6eb950e8cf9e15ef9f55f43a5a433fa9bab2d",
+          "result": "PASS",
+          "version": "0.9.0-beta.4.3",
+          "scope": "Exact artifact/source identity and runtime package structure"
         },
         {
-          "file": "windows-human-visual-acceptance.json",
-          "sha256": "d86816e3a6720de3b0ae44643cac3ca03433bcb9d9ad033a83e263a1fb76dee6",
-          "result": "PASS"
+          "file": "software-beta4-3.json",
+          "sha256": "1a30866e290bd59df3572b82649959aaf720b4ce3d503a0e679c90dd82f11041",
+          "result": "PASS",
+          "version": "0.9.0-beta.4.3",
+          "scope": "Software tests, typecheck/build and built renderer"
         }
       ],
       "limits": [
-        "Unsigned installer and application; no Authenticode certificate",
-        "Native qualification used Windows Server 2025 Datacenter x64 (10.0.26100) in a hosted VM; no physical consumer Windows or HDMI acceptance",
-        "Actual native images are 1024x768 or 1024x720; requested larger filenames are not dimension proof",
-        "The OS taskbar hides the player-display announcement row. Short-ticker visibility, single-copy rendering and native movement are not proven by these stills",
-        "Offscreen lower editor rows are outside the captured viewport"
+        "Only the German fourth Bubble rank was natively checked; English and tenth-rank pagination are separate software evidence.",
+        "No new native restart, audio, recovery, timer or uninstall test with 4.3.",
+        "No Windows 11, physical Windows hardware, physical sleep or HDMI acceptance.",
+        "Unsigned installer and application; no Authenticode certificate."
       ]
     }
   ],
   "unavailablePlatforms": [],
   "thirdPartySources": {
-    "file": "Turniermanager-0.9.0-beta.2-third-party-sources.tar.gz",
+    "file": "Turniermanager-0.9.0-beta.4.3-third-party-sources.tar.gz",
     "bytes": 18377570,
     "sha256": "585446a4c0839204d8be2af0e66473fb91dd069d13c5d3f51ffbb75886c78000",
-    "scope": "Corresponding third-party sources, patches and original build configuration; no application source"
+    "scope": "Corresponding third-party sources, patches and original build configuration; no application source",
+    "originalArchiveVersion": "0.9.0-beta.2",
+    "reuse": "Byte-identical archive copied under the 4.3 filename. Electron 44.3.0 and its Chromium/FFmpeg runtime remain unchanged; original internal beta-2 headings are retained."
   },
   "publicTagRole": "Public documentation and feedback repository revision; not public application source",
-  "privateSourceIntegrationCommit": "c5eeb195a2e19d8f1c6cdc4ceb6e5377f0e49668",
-  "privateSourceIntegrationDate": "2026-10-20",
-  "platformAdditionDate": "2026-10-20",
-  "privateSourceIntegrationRole": "Integration of the delivered application baseline; actual qualification build commits, including observer follow-up changes, are recorded per platform",
-  "supplementRole": "Adds the qualified Windows platform without replacing the originally published Mac assets or original Mac-only release manifest"
+  "qualificationHistory": {
+    "file": "beta4-series-qualification.json",
+    "sha256": "b4c5cbaaf3d33b65c1d702cf707ba25a96a23a62e0121bdbab226f802622224e",
+    "scope": "Explicitly version-bound earlier checks; not reruns on 4.3"
+  },
+  "qualificationPolicy": "Current package provenance and focused 4.3 installed-app checks are distinct from inherited earlier workflow checks. No fabricated full lifecycle or uninstall receipts."
 }

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "scope": "Historical qualification from the beta-4 candidate series; not reruns on beta 4.3",
+  "date": "2026-10-25",
+  "entries": [
+    {
+      "version": "0.9.0-beta.4",
+      "sourceCommit": "b81fcb1a529c2b7d33aa1caac033a962b6321177",
+      "platform": "macos",
+      "checks": [
+        "Running tournament rename preserved deadline, counts and structure.",
+        "Language/theme changes while running.",
+        "Custom-template deletion cancel/confirm and bundled-template protection."
+      ],
+      "limits": [
+        "Deletion checked active snapshot and event journal; no separate native archive-deletion test."
+      ]
+    },
+    {
+      "version": "0.9.0-beta.4.1",
+      "sourceCommit": "08eda49d2f31493155fb0a202c884a4644bb902e",
+      "platform": "macos",
+      "checks": [
+        "Synthetic beta-3 upgrade copy retained state.",
+        "Opening/cancelling payout, Bubble and ICM dialogs did not change monetary data.",
+        "Ticker draft without Apply did not alter the committed announcement.",
+        "Audio opt-in/test acknowledgment, a real 65-second countdown into level 2, pause, normal quit and restart retained state/preferences.",
+        "Two genuine earlier beta-2 pending-state copies showed honest legacy-review guidance; input files preserved."
+      ],
+      "limits": [
+        "Software emission/test acknowledgment does not prove acoustic hearing.",
+        "Ambiguous legacy states were not falsely claimed as automatically recovered."
+      ]
+    },
+    {
+      "version": "0.9.0-beta.4.2",
+      "sourceCommit": "c81e999bb10d7f005ea4ff435daaec59dbfc93d7",
+      "platform": "macos",
+      "checks": [
+        "Native player fullscreen entry/exit and UI synchronization after OS exit.",
+        "Finishing during a break showed finished state without future-phase/break instructions.",
+        "Normal quit/restart retained the entire finished state."
+      ],
+      "limits": [
+        "Startup returned to the home screen; the archive was not reopened in this final Mac check."
+      ]
+    },
+    {
+      "version": "0.9.0-beta.4.2",
+      "sourceCommit": "c81e999bb10d7f005ea4ff435daaec59dbfc93d7",
+      "platform": "windows",
+      "checks": [
+        "Normal NSIS update and installed version verification in Windows 10 Home 19045 VM.",
+        "Player fullscreen toggle and German finished display.",
+        "Normal quit/restart, retained archived tournament and no pending banner."
+      ],
+      "limits": [
+        "Native English change after finish was not a native English pass; German/English finish projection was checked separately in software."
+      ]
+    }
+  ],
+  "ownerFeedback": {
+    "version": "0.9.0-beta.4.2",
+    "scope": "Positive owner feedback on the prepared hearing/design session.",
+    "limits": "Exact output device and per-cue counts were not recorded; not an acoustic measurement or a new 4.3 hearing check."
+  },
+  "generalLimits": [
+    "No physical Apple Silicon/MacBook, Windows 11/Smart App Control, external HDMI/TV or real OS sleep acceptance.",
+    "No new full lifecycle or uninstall campaign on 4.3."
+  ]
+}

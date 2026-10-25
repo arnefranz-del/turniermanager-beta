@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "result": "PASS",
+  "scope": "Provenance of the current German native Mac screenshots",
+  "images": [
+    {
+      "file": "images/workspace-de.png",
+      "sha256": "762a9fb824811bd57a2843712fa797e3cc3740ee21517407008e5d0b0c8fa89a",
+      "width": 1600,
+      "height": 960,
+      "locale": "de",
+      "view": "workspace",
+      "version": "0.9.0-beta.4.3",
+      "sourceCommit": "5aed85a1670e45224c5c1ecb486622999d232607",
+      "installerSha256": "46962f42fa4a6610731dab090e5c2c30f4a3c77b17a69063946b4891352d16c6",
+      "capturedAt": "2026-10-25",
+      "method": "Native window screenshot of the separately installed HUMAN Mac package; synthetic data; unchanged PNG bytes",
+      "postProcessing": "none"
+    },
+    {
+      "file": "images/player-display-de.png",
+      "sha256": "1dcba5fd9632e4b6212c111c3232301c3a5d8b6b9c1947a3d1526e1bb12ff757",
+      "width": 3440,
+      "height": 1440,
+      "locale": "de",
+      "view": "player",
+      "version": "0.9.0-beta.4.3",
+      "sourceCommit": "5aed85a1670e45224c5c1ecb486622999d232607",
+      "installerSha256": "46962f42fa4a6610731dab090e5c2c30f4a3c77b17a69063946b4891352d16c6",
+      "capturedAt": "2026-10-25",
+      "method": "Native window screenshot of the separately installed HUMAN Mac package; synthetic data; unchanged PNG bytes",
+      "postProcessing": "none"
+    }
+  ],
+  "historicalImages": [
+    "images/workspace.png",
+    "images/player-display.png"
+  ],
+  "historicalImageScope": "The English images retain their original Beta2 identity; neither README presents them as current."
+}

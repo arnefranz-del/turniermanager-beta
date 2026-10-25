@@ -6,21 +6,21 @@ Poker-Turnierverwaltung für Windows und Mac, aus professioneller Floor-Praxis e
 
 [Website](https://turniermanager-beta.pages.dev/de/) · [Interaktive Demo](https://turniermanager-beta.pages.dev/de/#demo-open) · [English](README.en.md)
 
-[Für Mac herunterladen — Apple Silicon und Intel](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · [Für Windows herunterladen — x64](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe)
+[Für Mac herunterladen — Apple Silicon und Intel](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.4.3/Turniermanager-0.9.0-beta.4.3-macos-universal.dmg) · [Für Windows herunterladen — x64](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.4.3/Turniermanager-0.9.0-beta.4.3-windows-x64-Setup.exe)
 
-Kostenlose Beta **0.9.0-beta.2** vom 20. Oktober 2026. Privat und gewerblich kostenlos erproben, ohne Abo oder spätere Zahlungsverpflichtung für diese Erprobung. Künftige Versionen können andere Bedingungen haben. [Vollständige Beta-Bedingungen](BETA_TERMS.md).
+Kostenlose Beta **0.9.0-beta.4.3** vom 25. Oktober 2026. Privat und gewerblich kostenlos erproben, ohne Abo oder spätere Zahlungsverpflichtung für diese Erprobung. Künftige Versionen können andere Bedingungen haben. [Vollständige Beta-Bedingungen](BETA_TERMS.md).
 
 Mac ist ad hoc signiert und nicht notarisiert; Windows ist unsigniert. Beim Öffnen können Sicherheitswarnungen erscheinen. Lies vor dem ersten Öffnen die [Installationshilfe](docs/INSTALLATION.de.md). Schutzfunktionen eingeschaltet lassen; eine Schadsoftware- oder Beschädigungswarnung nicht umgehen.
 
 ## Die Spieleranzeige
 
-![Deutsche Lite-Spieleranzeige mit Uhr, Blinds, Spielerzahlen und Auszahlungen.](images/player-display-de.png)
+![Installierte Beta 4.3: deutsche Spieleranzeige mit bestätigtem vierten Bubble-Rang.](images/player-display-de.png)
 
 ## Der Arbeitsplatz
 
-![Deutscher Lite-Arbeitsplatz mit Uhrbedienung, Spielerzahlen und Schnellaktionen.](images/workspace-de.png)
+![Installierte Beta 4.3: deutscher Arbeitsplatz mit bestätigtem Bubble-Deal.](images/workspace-de.png)
 
-Echte Lite-Oberfläche, am 21. Oktober 2026 isoliert mit deutschen Beispieldaten gerendert; keine Aufnahme eines nativen App-Fensters. Die verwendeten UI-Komponenten sind gegenüber dem geprüften Beta-Code unverändert. Die PNGs wurden direkt aufgenommen und nicht nachbearbeitet. Die ursprünglichen englischen Fensteraufnahmen bleiben mit ihren [Bildnachweisen](checks/human-visual-acceptance.json) erhalten.
+Echte deutsche Fensteraufnahmen des installierten Mac-Pakets 0.9.0-beta.4.3 vom 25. Oktober 2026 mit synthetischen Beispieldaten. Die PNGs sind unverändert. [Bildherkunft und Paketzuordnung](checks/images-beta4-3.json).
 
 ## Selbst ausprobieren
 
@@ -35,7 +35,10 @@ Starte die Uhr, füge Spieler hinzu und buche Second Chances, ändere Blinds und
 - Spielerzählung, passende Nachkäufe und Auszahlungsstaffeln.
 - Separate Spieleranzeige mit eigenen Ansagen.
 - Deutsch und Englisch, Hell-/Dunkelmodus am Arbeitsplatz sowie Dunkelgrün/Gold und Nachtblau für die Spieleranzeige.
-- Lokales Speichern, Fortsetzen und zusätzliche Sicherungen.
+- Lokales Speichern, gespeicherte Stände bewusst prüfen und zusätzliche Sicherungen.
+- Direkter Turniername, löschbare eigene Vorlagen und geschützte mitgelieferte Vorlagen.
+- Optionale Tonsignale für Countdown und Phasenwechsel; zunächst ausgeschaltet.
+- Bestätigte Bubble-Deals mit ausdrücklich beschriftetem zusätzlichem bezahltem Rang.
 
 Erster Probelauf: Vorlage bearbeiten und speichern, als Turnier laden, Spielerzahl eintragen, Auszahlungen und Spieleranzeige prüfen, Uhr starten. [Vollständige Hilfe](https://turniermanager-beta.pages.dev/de/help/) · [Fragen & Antworten](docs/FAQ.md).
 
@@ -64,19 +67,21 @@ In der App: **Einstellungen → Programm**. Keine automatischen Logs oder Backup
 <details>
 <summary>Technische Details und Prüfsummen</summary>
 
-[macOS Universal · DMG](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-macos-universal.dmg) · 231.487.943 Byte
+[macOS Universal · DMG](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.4.3/Turniermanager-0.9.0-beta.4.3-macos-universal.dmg) · 232.740.252 Byte
 
-SHA-256: `f8f8c152b67eeda20e8e85fc7835026b84cd25bbf6180eccd3e0e220913469d9`
+SHA-256: `46962f42fa4a6610731dab090e5c2c30f4a3c77b17a69063946b4891352d16c6`
 
-Geprüft auf einem Intel-iMac mit macOS 14.7 und einer ARM64-Mac-CI-VM mit Darwin 25.6.0. Das Paket ist ad-hoc signiert und nicht notarisiert. HDMI, jede Consumer-Konfiguration und die Installation auf einem MacBook sind damit nicht pauschal abgenommen.
+Das installierte 4.3-Paket wurde auf einem physischen Intel-iMac mit macOS 14.7 geprüft: bestätigter Bubble-Rang am Arbeitsplatz und in der Spieleranzeige, unveränderte bestätigte Beträge und normaler Programmausstieg. Die englische Bedienübersicht und der Dialog wurden ebenfalls geprüft. Die Spieleraufnahme ist deutsch. Frühere weitergehende Prüfungen der 4er-Reihe bleiben ihrer jeweiligen Version zugeordnet. Kein neuer Apple-Silicon-, MacBook-, HDMI-, Audio- oder Recovery-Nativtest mit 4.3.
 
-[Windows x64 · Setup](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.2/Turniermanager-0.9.0-beta.2-windows-x64-Setup.exe) · 111.786.939 Byte
+[Windows x64 · Setup](https://github.com/arnefranz-del/turniermanager-beta/releases/download/v0.9.0-beta.4.3/Turniermanager-0.9.0-beta.4.3-windows-x64-Setup.exe) · 112.932.150 Byte
 
-SHA-256: `e01c82ab14eb23217565d6262f1cc479de703cbac090be1f606303b3a3eac332`
+SHA-256: `94a4d97cdc015095bc8b78ff98f87c74b12730c2030db2b9bdb34ec4bf9f1266`
 
-Installation, normales Beenden und Wiederöffnen, Wiederaufnahme, Sicherung und Wiederherstellung wurden nativ in einer Windows-Server-2025-Datacenter-VM (10.0.26100, x64) geprüft. Installer und App sind unsigniert. Die Bildschirmaufnahmen sind auf 1024 Pixel Breite begrenzt; die Windows-Taskleiste verdeckt die unterste Ankündigungszeile. Ein physischer Windows-Rechner, HDMI und die native Tickerbewegung sind damit nicht vollständig geprüft. Details stehen in den [Windows-Bildnachweisen](checks/windows-human-visual-acceptance.json).
+Das installierte 4.3-Paket wurde in einer isolierten Windows-10-Home-VM (19045, x64) geprüft: reguläres NSIS-Update, deutscher bestätigter Bubble-Rang in beiden Fenstern, unveränderte gespeicherte Beträge nach normalem Beenden. Kein neuer Neustart-, Audio-, Recovery- oder Deinstallationstest mit 4.3. Windows 11 und physisches Windows-/HDMI-Gerät sind damit nicht abgenommen.
 
-[Release & SHA-256](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.2) · [Manifest](release-manifest.json) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Third-party sources](docs/THIRD_PARTY_SOURCES.md)
+[Aktuelle und versionsgebundene Prüfnachweise](checks/README.md).
+
+[Release & SHA-256](https://github.com/arnefranz-del/turniermanager-beta/releases/tag/v0.9.0-beta.4.3) · [Manifest](release-manifest.json) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Third-party sources](docs/THIRD_PARTY_SOURCES.md)
 
 </details>
 
@@ -88,4 +93,4 @@ Spielerprofile, Check-in, Seating, Tischbalancing, PKO/Bounty, Satellites, Remot
 
 Anbieter und Kontakt: Turniermanager · Arne Franz, Rita-Maiburg-Straße 40, 70794 Filderstadt. [E-Mail](mailto:hybrid-larval-1l@icloud.com).
 
-Website-/Dokumentationsstand: 22. Oktober 2026. App, Installer und Release-Tag unverändert. Der Release-Tag bezeichnet den öffentlichen Dokumentations- und Manifeststand, keinen App-Source-Tag.
+Dokumentationsstand: 25. Oktober 2026. Der Release-Tag bezeichnet den öffentlichen Dokumentations- und Manifeststand. Die genaue private Buildquelle steht getrennt im Manifest.

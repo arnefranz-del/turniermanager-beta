@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "version": "0.9.0-beta.4.3",
+  "sourceCommit": "5aed85a1670e45224c5c1ecb486622999d232607",
+  "sourceTree": "8945a98c301e8bac2400e0699698414e51dd41d7",
+  "date": "2026-10-25",
+  "result": "PASS",
+  "summaryOnly": true,
+  "rawEvidence": "Private local evidence retained; this public summary is not a raw execution log.",
+  "scope": "Focused installed HUMAN Mac package acceptance of confirmed Bubble labels and state preservation",
+  "artifact": {
+    "file": "Turniermanager-0.9.0-beta.4.3-macos-universal.dmg",
+    "bytes": 232740252,
+    "sha256": "46962f42fa4a6610731dab090e5c2c30f4a3c77b17a69063946b4891352d16c6"
+  },
+  "environment": "Physical Intel iMac / macOS 14.7 / x86_64",
+  "method": "Normal UI in a separately installed exact DMG copy with a fresh synthetic profile; native accessibility and native window screenshots.",
+  "observations": {
+    "confirmedPayoutSource": "bubble",
+    "confirmedPayoutStatus": "confirmed",
+    "visible": true,
+    "beforeRowsCents": [
+      60000,
+      36000,
+      24000
+    ],
+    "deductionsCents": [
+      2000,
+      2000,
+      2000
+    ],
+    "confirmedRowsCents": [
+      58000,
+      34000,
+      22000,
+      6000
+    ],
+    "prizePoolCents": 120000,
+    "differenceCents": 0,
+    "germanWorkspaceAndPlayerLabel": "4. Platz · Bubble-Deal",
+    "englishOperatorSummaryAndDialogLabel": "4. place · Bubble deal",
+    "stateUnchangedAfterDisplayLanguageDialogCancelAndQuit": true,
+    "normalQuit": true,
+    "clockState": "not_started"
+  },
+  "limits": [
+    "English player-window locale was not natively checked.",
+    "No new native restart, audio, recovery, running-clock or uninstall test with 4.3.",
+    "No Apple Silicon, MacBook or physical HDMI acceptance."
+  ],
+  "imageProvenance": "images-beta4-3.json"
+}

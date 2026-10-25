@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "version": "0.9.0-beta.4.3",
+  "sourceCommit": "5aed85a1670e45224c5c1ecb486622999d232607",
+  "sourceTree": "8945a98c301e8bac2400e0699698414e51dd41d7",
+  "date": "2026-10-25",
+  "result": "PASS",
+  "summaryOnly": true,
+  "rawEvidence": "Private local evidence retained; this public summary is not a raw execution log.",
+  "scope": "Focused installed HUMAN Windows package acceptance of confirmed Bubble labels and persistence after quit",
+  "artifact": {
+    "file": "Turniermanager-0.9.0-beta.4.3-windows-x64-Setup.exe",
+    "bytes": 112932150,
+    "sha256": "94a4d97cdc015095bc8b78ff98f87c74b12730c2030db2b9bdb34ec4bf9f1266"
+  },
+  "environment": "Windows 10 Home / 19045 / x64 / isolated VirtualBox VM",
+  "method": "Normal per-user NSIS update and installed-app UI; fresh synthetic profile; guest native accessibility and screen capture.",
+  "observations": {
+    "versionVerified": true,
+    "confirmedPayoutSource": "bubble",
+    "confirmedPayoutStatus": "confirmed",
+    "visible": true,
+    "entries": 10,
+    "confirmedRowsCents": [
+      145000,
+      82000,
+      51000,
+      22000
+    ],
+    "prizePoolCents": 300000,
+    "differenceCents": 0,
+    "germanWorkspaceAndPlayerLabel": "4. Platz · Bubble-Deal",
+    "snapshotUnchangedAfterNormalQuit": true,
+    "normalQuit": true,
+    "appProcessesAfterQuit": 0,
+    "priorSyntheticDomainFilesUnchanged": 42
+  },
+  "limits": [
+    "Only the German fourth Bubble rank was natively checked; English and tenth-rank pagination are separate software evidence.",
+    "No new native restart, audio, recovery, timer or uninstall test with 4.3.",
+    "No Windows 11, physical Windows hardware, physical sleep or HDMI acceptance."
+  ]
+}
