@@ -2,7 +2,7 @@
 
 [Home](../README.en.md) · [Deutsch](INSTALLATION.de.md) · [Website help](https://turniermanager-beta.pages.dev/en/help/)
 
-For free beta 0.9.0-beta.2 on Windows x64 and Mac (Apple Silicon and Intel). Guide updated on 21 October 2026; the app is unchanged.
+For free beta 0.9.0-beta.4.3 on Windows x64 and Mac (Apple Silicon and Intel). Guide updated on 25 October 2026.
 
 <a name="install"></a>
 
@@ -12,7 +12,7 @@ For free beta 0.9.0-beta.2 on Windows x64 and Mac (Apple Silicon and Intel). Gui
 
 1. Get the Mac file from [Downloads](https://turniermanager-beta.pages.dev/en/#downloads) and open the DMG.
 1. Copy Turniermanager to Applications. Eject the DMG, then launch the copied app.
-1. This beta is ad-hoc signed, but not Developer ID signed or notarized. If macOS warns about an unidentified developer, check where the file came from and read [Apple’s guide](https://support.apple.com/en-us/102445). After an opening attempt, macOS may offer System Settings → Privacy & Security → Open Anyway, where you can deliberately decide whether to open it.
+1. This beta is ad-hoc signed, but not Developer ID signed or notarized. If macOS warns about an unidentified developer, check where the file came from and read [Apple’s guide](https://support.apple.com/en-us/102445). Try opening the copied app once. Then open System Settings → Privacy & Security and scroll to Security. If the entry names this app and offers Open Anyway, you can deliberately decide whether to open it. If the entry is absent, stop and report the message; do not disable Gatekeeper.
 
 ### Windows x64
 
@@ -20,7 +20,7 @@ For free beta 0.9.0-beta.2 on Windows x64 and Mac (Apple Silicon and Intel). Gui
 1. Run Setup under your user account and complete the installation.
 1. Launch the installed app from its program entry. The package is unsigned, so Windows may show an unknown publisher or a security warning.
 
-If you see a warning, check the file’s source before deciding whether to open it. Keep antivirus protection and SmartScreen enabled. Do not bypass a malware or damaged-file warning: stop, download a fresh copy from the official release and report the problem. [Microsoft explains the Windows protection features](https://support.microsoft.com/en-us/windows/security/windows-security/app-browser-control-in-the-windows-security-app).
+If you see a warning, check the file’s source before deciding whether to open it. SmartScreen may offer an explicit approval option, depending on the message. Smart App Control and managed policies are different blocks; Run anyway is not always available. If no approval option is offered, stop and report the exact message. Keep antivirus protection and SmartScreen enabled. Do not bypass a malware or damaged-file warning: stop, download a fresh copy from the official release and report the problem. [Microsoft explains the Windows protection features](https://support.microsoft.com/en-us/windows/security/windows-security/app-browser-control-in-the-windows-security-app).
 
 <details>
 <summary>Optional: check the downloaded file</summary>
@@ -76,13 +76,21 @@ Rebuys and other permitted entries can increase the prize pool. You can choose w
 
 An ICM calculation or displayed deal proposal is not an agreement. Accepting a deal is a separate, deliberate action. Agreed fixed amounts and accepted deals have their own safeguards and are distinct from normal automatic payouts.
 
+A confirmed Bubble deal explicitly labels the additional paid rank, for example “4. place · Bubble deal”. Opening or cancelling the dialog does not confirm a deal or change payout amounts.
+
+## Names, templates and sounds
+
+Rename the loaded tournament beside its title. This does not modify its template. Custom templates can be deleted after confirmation; bundled templates are protected. A loaded tournament keeps its own copy of the rules.
+
+Sounds are disabled by default. Enable them in settings, choose volume and categories, then use the test sound. Check audibility on the actual output device; a visible test acknowledgment does not replace this check.
+
 <a name="backup"></a>
 
 ## Save, close and back up
 
 ### Close the app and return later
 
-Closing the app normally keeps your tournament saved so you can return to it later. Review the clock when you reopen: it may be held after an interruption. Check the remaining time and phase, correct them if needed, then resume.
+Quit the app normally. On reopening, “Check saved state” guides review of an existing or unresolved state. Check the tournament, last action, phase and remaining time before resuming. An unresolved save is not labeled “Saved”. Some old or conflicting recovery files cannot safely be matched automatically: preserve the files, export diagnostics and report the case. Do not delete an old state by guesswork.
 
 “Finish tournament” is a separate action. Once confirmed, that tournament is no longer offered as a game to resume. This does not mean every archive or external backup has been securely deleted.
 
@@ -118,8 +126,10 @@ The email address underneath offers an alternative without GitHub. Clicking it o
 <details>
 <summary>Technical test evidence</summary>
 
-Mac: a physical Intel iMac running macOS 14.7 and an ARM64 CI VM running Darwin 25.6.0. Windows: a Windows Server 2025 Datacenter VM (10.0.26100, x64). This does not qualify physical Windows hardware, a MacBook installation, every OS version or physical HDMI. The ARM VM constrained window sizes. Windows captures are 1024 pixels wide; the taskbar hides the bottom announcement row. The captures do not prove native short-ticker movement.
+The installed 4.3 package was checked on a physical Intel iMac running macOS 14.7: confirmed Bubble rank in the workspace and player display, unchanged confirmed amounts and normal quit. The English operator summary and dialog were also checked. The player capture is German. Broader checks from the beta-4 series remain bound to their own versions. No new native Apple Silicon, MacBook, HDMI, audio or recovery test was performed with 4.3.
 
-[Exact filenames, sizes and SHA-256](../release-manifest.json) · [Mac visual evidence](../checks/human-visual-acceptance.json) · [Windows visual evidence](../checks/windows-human-visual-acceptance.json). These are test environments, not inferred minimum requirements.
+The installed 4.3 package was checked in an isolated Windows 10 Home VM (19045, x64): normal NSIS update, confirmed German Bubble rank in both windows and unchanged persisted amounts after normal quit. No new restart, audio, recovery or uninstall test was performed with 4.3. Windows 11 and physical Windows/HDMI hardware are not qualified by these checks.
+
+[Exact filenames, sizes and SHA-256](../release-manifest.json) · [Current and earlier qualification](../checks/README.md). These are test environments, not inferred minimum requirements.
 
 </details>

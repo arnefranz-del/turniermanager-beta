@@ -1,0 +1,7 @@
+0436ca25374d665add3408de2b8f923d1b5c47271781d23cf1b60e766fae8c45  RELEASE_NOTES.md
+694caf7d74742e5bc093dff91e7471fdf6098d0dbc2824a80976da101d1cd5f4  Turniermanager-0.9.0-beta.4.3-checks.zip
+46962f42fa4a6610731dab090e5c2c30f4a3c77b17a69063946b4891352d16c6  Turniermanager-0.9.0-beta.4.3-macos-universal.dmg
+67b19aea5f6d4272af3c04384f0ebc93768c2f2887c7cbeed5e52f087e6434e5  Turniermanager-0.9.0-beta.4.3-notices.zip
+585446a4c0839204d8be2af0e66473fb91dd069d13c5d3f51ffbb75886c78000  Turniermanager-0.9.0-beta.4.3-third-party-sources.tar.gz
+94a4d97cdc015095bc8b78ff98f87c74b12730c2030db2b9bdb34ec4bf9f1266  Turniermanager-0.9.0-beta.4.3-windows-x64-Setup.exe
+aba54adcdfbe050b7868e311d256e974f05b6c482d6b5c2f398f8b1fc6ea94a0  release-manifest.json

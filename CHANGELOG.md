@@ -1,5 +1,39 @@
 # Versionshinweise / Release notes
 
+## 0.9.0-beta.4.3 — Wieder einsteigen und den Abend führen / Return to your tournament and run the event
+
+25. Oktober 2026 / 25 October 2026. Kostenlose private und gewerbliche Erprobung gemäß [Beta-Bedingungen](https://github.com/arnefranz-del/turniermanager-beta/blob/main/BETA_TERMS.md).
+
+Seit der öffentlichen Beta 2:
+
+- Klarer Einstieg über „Stand prüfen“ bei gespeicherten oder ungeklärten Turnieren, ehrlicher Speicherstatus und Diagnoseexport für nicht eindeutig zuordenbare Altstände.
+- Kompakte Kopfzeile mit Deutsch/Englisch und Hell/Dunkel; direkter Turniername und bestätigtes Löschen eigener Vorlagen. Mitgelieferte Vorlagen bleiben geschützt.
+- Optionale Tonsignale für Countdown und Phasenwechsel, zunächst ausgeschaltet. Hörbarkeit bitte am eigenen Ausgabegerät prüfen.
+- Spielerfenster mit nachvollziehbarem Vollbildstatus; korrigierte Mac-Vollbildfunktion und eindeutige Anzeige abgeschlossener Turniere, auch während einer Pause.
+- Verständlichere Preisgeld-/Dealtexte und ein klar beschrifteter zusätzlicher bezahlter Bubble-Rang, etwa „4. Platz · Bubble-Deal“. Die Beschriftung verändert keine Beträge und ersetzt keine bewusste Dealbestätigung.
+
+Das konkrete 4.3-Paket wurde auf Intel-Mac/macOS 14.7 und in einer Windows-10-Home-VM (19045, x64) installiert geprüft: bestätigter Bubble-Rang, erhaltene Beträge und normales Beenden. Frühere weitergehende Prüfungen bleiben an Beta 4, 4.1 bzw. 4.2 gebunden. Mit 4.3 wurden Audio, Recovery, Neustart und Deinstallation nicht erneut nativ geprüft. Vollständige Softwareprüfung: 1127 Tests in 74 Dateien, 80 gezielte Tests, 17 Rendererfälle sowie Typecheck/Build erfolgreich. Softwareprüfungen sind kein Hörnachweis. Keine pauschale Apple-Silicon-, Windows-11- oder HDMI-Hardwareabnahme.
+
+Mac: ad hoc signiert, nicht Developer-ID-signiert oder notarisiert. Windows: unsigniert. Vor dem Update sichern, normal beenden und nach dem Update den Stand prüfen. [Installationshilfe](https://github.com/arnefranz-del/turniermanager-beta/blob/main/docs/INSTALLATION.de.md).
+
+---
+
+Since public beta 2:
+
+- “Check saved state” provides a clearer return path for saved or unresolved tournaments, an honest save status and diagnostic export for ambiguous older states.
+- Compact language/theme controls, direct tournament renaming and confirmed custom-template deletion. Bundled templates remain protected.
+- Optional countdown and phase-change sounds, disabled by default. Check audibility on your own output device.
+- Player-window fullscreen state, the macOS fullscreen fix and a clear finished-tournament display, including when finishing during a break.
+- Clearer payout/deal wording and an explicitly labeled additional paid Bubble rank, such as “4. place · Bubble deal”. The label does not change amounts or replace deliberate deal confirmation.
+
+The exact 4.3 package received installed-app checks on an Intel Mac/macOS 14.7 and a Windows 10 Home VM (19045, x64): confirmed Bubble rank, retained amounts and normal quit. Earlier broader checks remain bound to beta 4, 4.1 or 4.2. Audio, recovery, restart and uninstall were not retested natively with 4.3. Software qualification passed 1127 tests in 74 files, 80 targeted tests, 17 renderer cases and typecheck/build. Software checks do not establish hearing. No blanket Apple Silicon, Windows 11 or physical HDMI qualification is claimed.
+
+Mac is ad-hoc signed, not Developer ID signed or notarized. Windows is unsigned. Back up before updating, quit normally and review your saved state afterwards. [Installation guide](https://github.com/arnefranz-del/turniermanager-beta/blob/main/docs/INSTALLATION.en.md).
+
+The source archive is a byte-identical copy of the corresponding beta-2 third-party archive because Electron 44.3.0 and its Chromium/FFmpeg runtime remain unchanged. Internal historical archive headings are retained. This does not imply unchanged application code. App source remains private; third-party rights remain intact.
+
+Exact installer names, sizes, checksums, source commits and version-bound checks are recorded in `release-manifest.json`. `SHA256SUMS.txt` covers the release assets. Historical beta-2 assets remain unchanged.
+
 ## 21. Oktober 2026 — Interaktive Website-Vorschau / Interactive website preview
 
 Die Website zeigt eine begrenzte interaktive Vorschau mit Beispieldaten: Uhr, Spielerzahlen, Blinds/Pausen, Prozentstaffeln und Spieleranzeige teilen sich einen lokalen Demostand. Keine dauerhafte Speicherung oder Übertragung von Demoeingaben. Neutrale Produkttexte, echte Produktbilder in der README und eine kompakte angeheftete Navigation. Die Desktop-App und alle Release-Dateien bleiben unverändert.

@@ -2,7 +2,7 @@
 
 [Deutsch](../README.md) · [English](../README.en.md) · [Hilfe](https://turniermanager-beta.pages.dev/de/help/) · [Help](https://turniermanager-beta.pages.dev/en/help/)
 
-Stand / Updated: 22. Oktober / October 2026. App: 0.9.0-beta.2.
+Stand / Updated: 25. Oktober / October 2026. App: 0.9.0-beta.4.3.
 
 ## Was kostet diese Beta? / What does this beta cost?
 
@@ -36,9 +36,9 @@ No. Lite counts players and entries, but does not keep named player lists, assig
 
 ## Was passiert, wenn ich die App schließe? / What happens when I close the app?
 
-Dein laufendes Turnier bleibt gespeichert und kann später fortgesetzt werden. Prüfe dann die Uhr. „Turnier beenden …“ schließt es nach Bestätigung ab; danach wird es nicht mehr als laufendes Turnier angeboten.
+Beende die App normal und öffne später „Stand prüfen“. Prüfe Turnier, letzte Aktion, Phase und Uhr, bevor du fortsetzt. Alte oder widersprüchliche Recovery-Dateien können eine weitere Prüfung benötigen; erhalte sie und nutze bei Bedarf den Diagnoseexport. „Turnier beenden …“ schließt es nach Bestätigung ab; danach wird es nicht mehr als laufendes Turnier angeboten.
 
-Your current tournament stays saved so you can return later. Review the clock when you do. “Finish tournament” closes it after confirmation; it is then no longer offered as a game to resume.
+Quit normally and later open “Check saved state”. Review the tournament, last action, phase and clock before resuming. Old or conflicting recovery files may need further review; preserve them and export diagnostics when needed. “Finish tournament” closes it after confirmation; it is then no longer offered as a game to resume.
 
 ## Warum warnt mein Rechner beim Öffnen? / Why does my computer show a warning?
 
@@ -109,3 +109,21 @@ No. German and English, light and dark workspace modes, and dark green/gold or n
 Probiere Turniermanager mit Beispieldaten aus und teile mit, was gut funktioniert, was unklar bleibt und was dir im Turnierbetrieb fehlt. Rückmeldungen sind per E-Mail oder auf GitHub möglich.
 
 Try Turniermanager with example data and share what works, what is unclear and what you need when running a tournament. You can send feedback by email or on GitHub.
+
+## Warum steht am vierten Platz „Bubble-Deal“? / Why is the fourth place labeled “Bubble deal”?
+
+Wenn du aus drei regulär bezahlten Plätzen bewusst einen weiteren bezahlten Rang finanzierst und den Bubble-Deal bestätigst, steht dort „4. Platz · Bubble-Deal“. Die Kennzeichnung erklärt die Herkunft des Rangs. Sie bestätigt selbst keinen Deal und ändert keine Beträge. Bei einer anderen Zahl regulärer Plätze wird der entsprechende zusätzliche Rang beschriftet.
+
+If you deliberately fund an additional paid rank from three regular paid places and confirm the Bubble deal, it is labeled “4. place · Bubble deal”. The label explains the rank’s origin; it does not itself confirm a deal or change amounts. A different number of regular paid places labels the corresponding additional rank.
+
+## Warum höre ich keinen Ton? / Why is there no sound?
+
+Tonsignale sind zunächst ausgeschaltet. Aktiviere sie in den Einstellungen und prüfe Lautstärke, Kategorien und Testton am tatsächlichen Ausgabegerät. Eine sichtbare Testbestätigung beweist keine Hörbarkeit.
+
+Sounds are disabled by default. Enable them in settings and check volume, categories and the test sound on your actual output device. A visible test acknowledgment does not prove audibility.
+
+## Ändert Umbenennen eine Vorlage? / Does renaming change a template?
+
+Nein. Der Name neben dem geladenen Turniertitel gilt für diesen Turnierstand. Eigene Vorlagen lassen sich separat nach Bestätigung löschen; mitgelieferte Vorlagen sind geschützt. Ein bereits geladenes Turnier behält seine Regelkopie.
+
+No. The name beside the loaded tournament title belongs to that tournament. Custom templates can be deleted separately after confirmation; bundled templates are protected. An already loaded tournament retains its copy of the rules.

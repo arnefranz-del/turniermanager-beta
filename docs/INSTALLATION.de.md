@@ -2,7 +2,7 @@
 
 [Startseite](../README.md) · [English](INSTALLATION.en.md) · [Hilfe auf der Website](https://turniermanager-beta.pages.dev/de/help/)
 
-Für die kostenlose Beta 0.9.0-beta.2 auf Windows x64 und Mac (Apple Silicon und Intel). Anleitung vom 21. Oktober 2026; die App ist unverändert.
+Für die kostenlose Beta 0.9.0-beta.4.3 auf Windows x64 und Mac (Apple Silicon und Intel). Anleitung vom 25. Oktober 2026.
 
 <a name="install"></a>
 
@@ -12,7 +12,7 @@ Für die kostenlose Beta 0.9.0-beta.2 auf Windows x64 und Mac (Apple Silicon und
 
 1. Lade die Mac-Datei über die [Downloads](https://turniermanager-beta.pages.dev/de/#downloads) herunter und öffne das DMG.
 1. Kopiere Turniermanager nach „Programme“. Wirf das DMG aus und starte die kopierte App.
-1. Die Beta ist ad hoc signiert, aber nicht mit einem Apple-Entwicklerzertifikat signiert und nicht notarisiert. Wenn macOS den unbekannten Entwickler meldet, prüfe zuerst die Herkunft der Datei. Lies [Apples Anleitung](https://support.apple.com/de-de/102445). Falls macOS es anbietet, kannst du nach einem Öffnungsversuch unter „Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen“ bewusst über den Start entscheiden.
+1. Die Beta ist ad hoc signiert, aber nicht mit einem Apple-Entwicklerzertifikat signiert und nicht notarisiert. Wenn macOS den unbekannten Entwickler meldet, prüfe zuerst die Herkunft der Datei. Lies [Apples Anleitung](https://support.apple.com/de-de/102445). Starte die kopierte App einmal. Öffne danach „Systemeinstellungen → Datenschutz & Sicherheit“ und scrolle zum Bereich „Sicherheit“. Falls dort genau diese App und „Dennoch öffnen“ erscheinen, kannst du bewusst über den Start entscheiden. Fehlt dieser Eintrag, brich ab und melde den angezeigten Text; deaktiviere Gatekeeper nicht.
 
 ### Windows x64
 
@@ -20,7 +20,7 @@ Für die kostenlose Beta 0.9.0-beta.2 auf Windows x64 und Mac (Apple Silicon und
 1. Öffne das Setup unter deinem Benutzerkonto und schließe die Installation ab.
 1. Starte die installierte App über ihren Programmeintrag. Das Paket ist unsigniert; Windows kann deshalb einen unbekannten Herausgeber oder eine Sicherheitswarnung anzeigen.
 
-Prüfe bei einer Warnung die Herkunft der Datei und entscheide bewusst, ob du sie öffnen möchtest. Lass Virenschutz und SmartScreen eingeschaltet. Eine Schadsoftware- oder Beschädigungswarnung nicht umgehen: Brich ab, lade die Datei erneut aus dem offiziellen Release und melde den Befund. [Microsoft erklärt die Windows-Schutzfunktionen](https://support.microsoft.com/de-de/windows/security/windows-security/app-browser-control-in-the-windows-security-app).
+Prüfe bei einer Warnung die Herkunft der Datei und entscheide bewusst, ob du sie öffnen möchtest. SmartScreen kann je nach Meldung eine bewusste Freigabe anbieten. Smart App Control und verwaltete Richtlinien sind andere Sperren; ein „Trotzdem ausführen“ ist nicht immer verfügbar. Fehlt die Freigabe, brich ab und melde den genauen Text. Lass Virenschutz und SmartScreen eingeschaltet. Eine Schadsoftware- oder Beschädigungswarnung nicht umgehen: Brich ab, lade die Datei erneut aus dem offiziellen Release und melde den Befund. [Microsoft erklärt die Windows-Schutzfunktionen](https://support.microsoft.com/de-de/windows/security/windows-security/app-browser-control-in-the-windows-security-app).
 
 <details>
 <summary>Optional: die heruntergeladene Datei prüfen</summary>
@@ -76,13 +76,21 @@ Nachkäufe können das Preisgeld erhöhen. Ob eine bestimmte Art von Nachkauf au
 
 Eine ICM-Berechnung oder ein angezeigter Dealvorschlag ist noch keine Vereinbarung. Ein Deal braucht eine eigene bewusste Bestätigung. Vereinbarte feste Beträge und bereits übernommene Deals folgen ihren eigenen Schutzregeln; sie sind von den normalen automatischen Auszahlungen zu unterscheiden.
 
+Ein bestätigter Bubble-Deal zeigt den zusätzlich bezahlten Rang ausdrücklich, zum Beispiel „4. Platz · Bubble-Deal“. Das bloße Öffnen oder Abbrechen des Dialogs bestätigt keinen Deal und verändert keine Auszahlungsbeträge.
+
+## Name, Vorlagen und Tonsignale
+
+Den Namen des geladenen Turniers änderst du direkt neben dem Titel. Das verändert keine Vorlage. Eigene Vorlagen lassen sich nach Bestätigung löschen; mitgelieferte Vorlagen sind geschützt. Ein geladenes Turnier behält seine eigene Regelkopie.
+
+Tonsignale sind zunächst ausgeschaltet. Aktiviere sie in den Einstellungen, wähle Lautstärke und Kategorien und nutze den Testton. Prüfe die Hörbarkeit am tatsächlichen Ausgabegerät; eine sichtbare Testbestätigung ersetzt diese Probe nicht.
+
 <a name="backup"></a>
 
 ## Speichern, schließen und sichern
 
 ### Schließen und später weitermachen
 
-Wenn du die App normal schließt, bleibt dein Turnier gespeichert. Beim nächsten Öffnen kannst du es fortsetzen. Prüfe dabei die Uhr: Nach einer Unterbrechung kann sie angehalten sein. Vergleiche Restzeit und Phase, korrigiere sie bei Bedarf und setze erst dann fort.
+Beende die App normal. Beim nächsten Öffnen führt „Stand prüfen“ durch einen vorhandenen oder ungeklärten Stand. Prüfe Turnier, letzte Aktion, Phase und Restzeit, bevor du fortsetzt. Ein ungeklärter Speichervorgang wird nicht als „Gespeichert“ dargestellt. Manche alten oder widersprüchlichen Recovery-Dateien lassen sich nicht sicher automatisch zuordnen: Erhalte dann die Dateien, nutze den Diagnoseexport und melde den Fall. Lösche den Altstand nicht auf Verdacht.
 
 „Turnier beenden …“ ist eine andere Aktion: Nach deiner Bestätigung wird dieses Turnier nicht mehr als laufender Stand zum Fortsetzen angeboten. Das bedeutet nicht, dass alle Archive oder externen Sicherungen sicher gelöscht sind.
 
@@ -118,8 +126,10 @@ Darunter steht die E-Mail-Adresse als Alternative ohne GitHub-Konto. Der Klick �
 <details>
 <summary>Technische Prüfnachweise</summary>
 
-Mac: Intel-iMac mit macOS 14.7 und ARM64-CI-VM mit Darwin 25.6.0. Windows: Windows Server 2025 Datacenter (10.0.26100, x64) in einer VM. Ein physischer Windows-Rechner, eine MacBook-Installation, jede OS-Version und physisches HDMI sind damit nicht pauschal geprüft. Die ARM-VM begrenzte Fenstergrößen. Windows-Aufnahmen sind 1024 Pixel breit; die Taskleiste verdeckt die unterste Ankündigungszeile. Native Bewegung des kurzen Tickers ist durch die Aufnahmen nicht nachgewiesen.
+Das installierte 4.3-Paket wurde auf einem physischen Intel-iMac mit macOS 14.7 geprüft: bestätigter Bubble-Rang am Arbeitsplatz und in der Spieleranzeige, unveränderte bestätigte Beträge und normaler Programmausstieg. Die englische Bedienübersicht und der Dialog wurden ebenfalls geprüft. Die Spieleraufnahme ist deutsch. Frühere weitergehende Prüfungen der 4er-Reihe bleiben ihrer jeweiligen Version zugeordnet. Kein neuer Apple-Silicon-, MacBook-, HDMI-, Audio- oder Recovery-Nativtest mit 4.3.
 
-[Dateinamen, Größen und SHA-256](../release-manifest.json) · [Mac-Bildnachweise](../checks/human-visual-acceptance.json) · [Windows-Bildnachweise](../checks/windows-human-visual-acceptance.json). Diese Angaben sind Testumgebungen, keine abgeleiteten Mindestanforderungen.
+Das installierte 4.3-Paket wurde in einer isolierten Windows-10-Home-VM (19045, x64) geprüft: reguläres NSIS-Update, deutscher bestätigter Bubble-Rang in beiden Fenstern, unveränderte gespeicherte Beträge nach normalem Beenden. Kein neuer Neustart-, Audio-, Recovery- oder Deinstallationstest mit 4.3. Windows 11 und physisches Windows-/HDMI-Gerät sind damit nicht abgenommen.
+
+[Dateinamen, Größen und SHA-256](../release-manifest.json) · [Aktuelle und frühere Prüfungen](../checks/README.md). Diese Angaben sind Testumgebungen, keine abgeleiteten Mindestanforderungen.
 
 </details>
